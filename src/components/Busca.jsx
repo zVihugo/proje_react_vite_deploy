@@ -1,4 +1,5 @@
 import React, { useState} from "react";
+import Button from "react-bootstrap/Button";
 
 const Busca = ({ onSearch, reset }) => {
   const [inputValue, setInputValue] = useState("");
@@ -21,25 +22,26 @@ const Busca = ({ onSearch, reset }) => {
         type="text"
         value={inputValue}
         onChange={handleChange}
+        /*Não sei pq ta descontinuado???????*/
         onKeyPress={handleKeyPress}
         placeholder="Digite o nome do personagem"
-        className="form-control mb-3"
-        style={{ padding: "10px", height: "auto", width: "300px" }}
+        className="form-control mb-3 p-3 w-100"
       />
       <div
         className="d-flex flex-row justify-content-evenly"
         style={{ width: "300px" }}
       >
-        <button
+        <Button
           onClick={() => handleKeyPress({key: 'Enter'})}
           
-          className="btn btn-success"
+          variant="success" 
+          size = "lg"
         >
           Buscar
-        </button>
-        <button onClick={() => reset()} className="btn btn-primary">
+        </Button>
+        <Button onClick={() => reset()} variant="primary" size="lg">
           Resetar
-        </button>
+        </Button>
       </div>
     </div>
   );
