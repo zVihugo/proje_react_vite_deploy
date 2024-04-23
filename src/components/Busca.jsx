@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 
 const Busca = ({ onSearch, reset }) => {
   const [inputValue, setInputValue] = useState("");
@@ -8,9 +8,11 @@ const Busca = ({ onSearch, reset }) => {
   };
 
   const handleKeyPress = (e) => {
-    onSearch(inputValue);
-    console.log("inputValue = ", inputValue);
-    setInputValue("");
+    if(e.key === "Enter") {
+      onSearch(inputValue);
+      console.log("inputValue = ", inputValue);
+      setInputValue("");
+    }
   };
 
   return (
@@ -19,6 +21,7 @@ const Busca = ({ onSearch, reset }) => {
         type="text"
         value={inputValue}
         onChange={handleChange}
+        onKeyPress={handleKeyPress}
         placeholder="Digite o nome do personagem"
         className="form-control mb-3"
         style={{ padding: "10px", height: "auto", width: "300px" }}
@@ -28,7 +31,7 @@ const Busca = ({ onSearch, reset }) => {
         style={{ width: "300px" }}
       >
         <button
-          onClick={() => handleKeyPress(inputValue)}
+          onClick={() => handleKeyPress({key: 'Enter'})}
           
           className="btn btn-success"
         >
