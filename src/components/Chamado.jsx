@@ -1,4 +1,4 @@
-import React, { useState, createContext } from "react";
+import React, { useState, createContext, useEffect } from "react";
 
 export const PersonagemContext = createContext();
 
@@ -6,26 +6,29 @@ const Chamado = ({ children }) => {
   const [personagems, setPersonagems] = useState([]);
   const [input, setInput] = useState("");
   const [error, setError] = useState(null);
+  const [suggestions, setSuggestions] = useState([]);
 
   const reset = () => {
     setPersonagems([]);
     setInput("");
     setError(null);
+    setSuggestions([])
   };
 
-  //utilizar depois caso queira buscar todos os personagens
-  const fetchAllPersonagens = async () => {
-    let fetched = [];
-    for (let page = 1; page <= 7; page++) {
-      const response = await fetch(
-        `https://dragonball-api.com/api/characters?page=${page}`
-      );
-      const data = await response.json();
-      console.log(data);
-      fetched = fetched.concat(data.items);
-    }
-    setPersonagems(fetched);
-  };
+  // //utilizar depois caso queira buscar todos os personagens
+  // const fetchAllPersonagens = async () => {
+  //   let fetched = [];
+  //   for (let page = 1; page <= 7; page++) {
+  //     const response = await fetch(
+  //       `https://dragonball-api.com/api/characters?page=${page}`
+  //     );
+  //     const data = await response.json();
+  //     console.log(data);
+  //     fetched = fetched.concat(data.items);
+  //   }
+  //   setPersonagems(fetched);
+  // };
+  
 
 
   const fetchPersonagens = async (searchName) => {
@@ -54,8 +57,10 @@ const Chamado = ({ children }) => {
     reset,
     fetchPersonagens,
     handleSearch,
+    suggestions,
     input,
     error,
+    setInput
   };
 
   return (

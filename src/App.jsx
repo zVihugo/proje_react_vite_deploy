@@ -9,7 +9,6 @@ import ErrorInput from "./components/ErrorInput";
 import InitialMessage from "./components/InitialMessage";
 
 //biblioteca css
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //Contexto
@@ -20,7 +19,7 @@ function App() {
     useContext(PersonagemContext);
 
   return (
-    <div className="d-flex flex-column align-items-center">
+    <div className="d-flex flex-column align-items-center"> 
       <h1 className="mb-3">Personagens Dragon Ball</h1>
       <p className="text-center">
         Você pode buscar um personagem específico, gerar aleatórios ou até mesmo

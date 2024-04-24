@@ -1,8 +1,9 @@
-import React, { useState} from "react";
+import React, { useState, useContext}from "react";
 import Button from "react-bootstrap/Button";
 
 const Busca = ({ onSearch, reset }) => {
   const [inputValue, setInputValue] = useState("");
+  
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
