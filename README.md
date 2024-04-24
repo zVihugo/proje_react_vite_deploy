@@ -26,7 +26,7 @@ Este projeto foi criado como parte de um trabalho para a aula do Professor Willi
 
 1. Clone este repositório.
 2. Instale as dependências usando `npm install`.
-3. Inicie o servidor de desenvolvimento usando `npm start`.
+3. Inicie o servidor de desenvolvimento usando `npm run dev`.
 4. Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no seu navegador.
 
 ##Github Pages
