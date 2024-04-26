@@ -1,4 +1,4 @@
-import React, { useState, createContext, useEffect } from "react";
+import React, { useState, createContext, useEffect, useMemo } from "react";
 
 export const PersonagemContext = createContext();
 
@@ -43,7 +43,7 @@ const Chamado = ({ children }) => {
     }
   };
   const handleSearch = async (searchTerm) => {
-    if (searchTerm.trim() === "") {
+    if (searchTerm.trim(). length< 2) {
       setError(true);
       return
     } else {
@@ -51,8 +51,7 @@ const Chamado = ({ children }) => {
       await fetchPersonagens(searchTerm);
     }
   };
-
-  const value = {
+  const value = useMemo(() => ({
     personagems,
     reset,
     fetchPersonagens,
@@ -61,7 +60,7 @@ const Chamado = ({ children }) => {
     input,
     error,
     setInput
-  };
+  }), [personagems, input, error, suggestions]);
 
   return (
     <PersonagemContext.Provider value={value}>
