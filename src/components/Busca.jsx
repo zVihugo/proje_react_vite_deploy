@@ -11,10 +11,9 @@ const Busca = ({ onSearch, reset }) => {
 
   const handleReset = () => {
     reset()
-    setPersonagems([]);
+    //setPersonagems([]);
     setInputValue("");
     setSuggestions([]);
-  
   }
 
   useEffect(() => {
@@ -64,8 +63,7 @@ const Busca = ({ onSearch, reset }) => {
       />
       <div className="sugestoes">
         {suggestions.map((suggestion) => (
-          // Adicione a classe 'sugestao' a cada sugestão individual
-          <div key={suggestion.id} className="sugestao">
+          <div key={suggestion.id} className="sugestao" onClick={() => onSearch(suggestion.name)}>
             {suggestion.name}
           </div>
         ))}
