@@ -43,7 +43,7 @@ const Chamado = ({ children }) => {
     }
   };
   const handleSearch = async (searchTerm) => {
-    if (searchTerm.trim(). length < 2) {
+    if (searchTerm.trim().length< 2) {
       setError(true);
       return
     } else {
