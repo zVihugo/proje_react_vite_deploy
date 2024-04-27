@@ -22,8 +22,7 @@ function App() {
     <div className="d-flex flex-column align-items-center white-background"> 
       <h1 className="mb-3">Personagens Dragon Ball</h1>
       <p className="text-center">
-        Você pode buscar um personagem específico, gerar aleatórios ou até mesmo
-        todos, basta digitar todos
+        Você pode buscar um personagem específico, basta digitar o nome abaixo!
       </p>
       <p className="text-center">
         <strong>
