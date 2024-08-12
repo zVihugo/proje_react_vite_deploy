@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Chamado from './components/Chamado';
+import Chamado from './components/Chamado/Chamado';
 import './index.css';
 
 ReactDOM.render(

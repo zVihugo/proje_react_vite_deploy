@@ -1,12 +1,13 @@
-@font-face {
+/* @font-face {
   font-family: 'Dragon Ball';
   src: url('./fonts/Saiyan-Sans.ttf'),
        url('./fonts/Saiyan-Sans Left Oblique.ttf'), 
        url('./fonts/Saiyan-Sans Right Oblique.ttf'),
-}
+} */
 
 :root {
     display: flex;
+    font-family: aria;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -35,8 +36,11 @@ body {
   align-items: center;
   min-height: 100vh;
   font-size: larger;
-  font-family: 'Dragon Ball';
-  background-image:url("./images/imagem-fundo.jpg");
+  font-family: "Montserrat", sans-serif;
+  /* background-image:url("./images/imagem-fundo.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: center;
 }
 
 h1 {

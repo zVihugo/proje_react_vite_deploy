@@ -1,5 +1,5 @@
 import React from 'react'
-import homer from '../images/homer-duvida.png'
+import homer from '../../images/homer-duvida.png'
 
 
 const InitialMessage = () => {

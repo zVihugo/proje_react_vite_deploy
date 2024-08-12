@@ -10,8 +10,7 @@ const Busca = ({ onSearch, reset }) => {
 
 
   const handleReset = () => {
-    reset()
-    //setPersonagems([]);
+    reset();
     setInputValue("");
     setSuggestions([]);
   }

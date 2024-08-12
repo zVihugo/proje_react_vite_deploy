@@ -1,15 +1,31 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+import './App.css'
 
 //Importando Pages
 import Inicial from './pages/Inicial/Inicial'
-// import Login from './pages/Login/Login'
+import Login from './pages/Login/Login'
 // import Register from './pages/Register/Register'
+
+//Importando componentes
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
   return (
-    <div>
-      <Inicial />
+    <div className="App">
+      <BrowserRouter>
+        {/* <Navbar/> */}
+        <div className="container">
+          <Routes>
+            {/* Pagina Inicial */}
+            <Route path="/" element={<Inicial/>}/>
+            <Route path="/Auth" element={<Login/>}/>
+            
+            {/* Caso o usuário não ache a página, ele será redirecionado para a página inicial */}
+            <Route path="*" element={<Navigate to="/"/>}/>
+          </Routes>
+          </div>
+      </BrowserRouter>
     </div>
   )
 }

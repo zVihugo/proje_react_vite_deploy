@@ -1,18 +1,19 @@
 import React, { useContext} from "react";
 
 //Chamado dos componentestes
-import Busca from "../../components/Busca";
-import Personagem from "../../components/Personagem";
-import ErrorName from "../../components/ErrorName";
-import ErrorInput from "../../components/ErrorInput";
-import InitialMessage from "../../components/InitialMessage";
+import Busca from "../../components/Busca/Busca";
+import Personagem from "../../components/Personagem/Personagem";
+import ErrorName from "../../components/ErrorName/ErrorName";
+import ErrorInput from "../../components/ErrorInput/ErrorInput";
+import InitialMessage from "../../components/InitialMessage/InitialMessage";
 
 
 //biblioteca css
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./Inicial.module.css";
 
 //Contexto
-import { PersonagemContext } from "../../components/Chamado";
+import { PersonagemContext } from "../../components/Chamado/Chamado";
 
 function Inicial() {
   const { handleSearch, input, personagems, reset, error} =
@@ -20,31 +21,28 @@ function Inicial() {
 
   return (
     <div className="d-flex flex-column align-items-center white-background"> 
-      <h1 className="mb-3">Personagens Dragon Ball</h1>
-      <p className="text-center">
-        Você pode buscar um personagem específico, basta digitar o nome abaixo!
-      </p>
-      <p className="text-center">
-        <strong>
-          Obs: Como a API está em espanhol, procure o nome de acordo com o
-          idioma!
-        </strong>
-      </p>
-      <Busca onSearch={handleSearch} reset={reset} />
-
-      
-      {input.trim() === "" && !error && <InitialMessage />}
-
-      
-      {input.trim() === "" && error && <ErrorInput />}
-
-      
-      {input.trim() !== "" && personagems.length === 0 && <ErrorName />}
-
-      {Array.isArray(personagems) && personagems.map((personagem) => (
-        <Personagem key={personagem.ids} personagem={personagem} />
-      ))}
-    </div>
+    <h1 className="mb-3">Personagens Dragon Ball</h1>
+    <p className="text-center">
+      Você pode buscar um personagem específico, basta digitar o nome abaixo!
+    </p>
+    <p className="text-center">
+      <strong>
+        Obs: Como a API está em espanhol, procure o nome de acordo com o
+        idioma!
+      </strong>
+    </p>
+    <Busca onSearch={handleSearch} reset={reset} />
+  
+    {input.trim() === "" && !error && <InitialMessage />}
+  
+    {input.trim() === "" && error && <ErrorInput />}
+  
+    {input.trim() !== "" && personagems.length === 0 && <ErrorName />}
+  
+    {Array.isArray(personagems) && personagems.map((personagem) => (
+      <Personagem key={personagem.ids} personagem={personagem} />
+    ))}
+  </div>
   );
 }
 

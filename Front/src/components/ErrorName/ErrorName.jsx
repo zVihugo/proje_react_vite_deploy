@@ -1,5 +1,5 @@
 import React from 'react'
-import download from '../images/download.png'
+import download from '../../images/download.png'
 import Alert from 'react-bootstrap/Alert'
 
 const ErrorName = () => {

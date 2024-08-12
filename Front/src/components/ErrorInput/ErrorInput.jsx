@@ -1,5 +1,5 @@
 import React from 'react'
-import imagem from '../images/images.jpg'
+import imagem from '../../images/images.jpg'
 import Alert from   'react-bootstrap/Alert'
 
 const ErrorInput = () => {
