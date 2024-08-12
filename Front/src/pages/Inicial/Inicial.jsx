@@ -1,20 +1,20 @@
 import React, { useContext} from "react";
 
 //Chamado dos componentestes
-import Busca from "./components/Busca";
-import Personagem from "./components/Personagem";
-import ErrorName from "./components/ErrorName";
-import ErrorInput from "./components/ErrorInput";
-import InitialMessage from "./components/InitialMessage";
-import "./App.css";
+import Busca from "../../components/Busca";
+import Personagem from "../../components/Personagem";
+import ErrorName from "../../components/ErrorName";
+import ErrorInput from "../../components/ErrorInput";
+import InitialMessage from "../../components/InitialMessage";
+
 
 //biblioteca css
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //Contexto
-import { PersonagemContext } from "./components/Chamado";
+import { PersonagemContext } from "../../components/Chamado";
 
-function App() {
+function Inicial() {
   const { handleSearch, input, personagems, reset, error} =
     useContext(PersonagemContext);
 
@@ -48,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default Inicial;
