@@ -19,9 +19,9 @@ function Login() {
 
   return (
     <div className={`d-flex flex-column align-items-center ${styles["white-background"]}`}>
-      <h1 className="mb-3">Login</h1>
-      <form onSubmit={handleLogin} className="w-50">
-        <div className="mb-3">
+      <h1 className="mb-4">Login</h1>
+      <form onSubmit={handleLogin} className="w-80">
+        <div className="mb-4">
           <label htmlFor="username" className="form-label">Nome de Usuário</label>
           <input
             type="text"
@@ -32,7 +32,7 @@ function Login() {
             required
           />
         </div>
-        <div className="mb-3">
+        <div className="mb-4">
           <label htmlFor="password" className="form-label">Senha</label>
           <input
             type="password"

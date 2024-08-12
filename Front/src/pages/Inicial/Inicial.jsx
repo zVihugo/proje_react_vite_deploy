@@ -25,12 +25,6 @@ function Inicial() {
     <p className="text-center">
       Você pode buscar um personagem específico, basta digitar o nome abaixo!
     </p>
-    <p className="text-center">
-      <strong>
-        Obs: Como a API está em espanhol, procure o nome de acordo com o
-        idioma!
-      </strong>
-    </p>
     <Busca onSearch={handleSearch} reset={reset} />
   
     {input.trim() === "" && !error && <InitialMessage />}

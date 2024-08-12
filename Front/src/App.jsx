@@ -5,7 +5,7 @@ import './App.css'
 //Importando Pages
 import Inicial from './pages/Inicial/Inicial'
 import Login from './pages/Login/Login'
-// import Register from './pages/Register/Register'
+import Insertion from './pages/Insertion/Insertion'
 
 //Importando componentes
 import Navbar from './components/Navbar/Navbar'
@@ -20,6 +20,7 @@ const App = () => {
             {/* Pagina Inicial */}
             <Route path="/" element={<Inicial/>}/>
             <Route path="/Auth" element={<Login/>}/>
+            <Route path="/Insertion" element={<Insertion/>}/>
             
             {/* Caso o usuário não ache a página, ele será redirecionado para a página inicial */}
             <Route path="*" element={<Navigate to="/"/>}/>
