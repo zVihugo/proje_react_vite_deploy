@@ -5,6 +5,7 @@ const install = require("./Routes/install");
 const connectDB = require('./helpers/banco'); 
 const jwt = require('jsonwebtoken');
 const User = require("./model/user");
+const {getPosts, addPost, searchPost} = require("./model/postagens");
 
 const app = express();
 const port = 3333;
@@ -62,6 +63,17 @@ app.post('/api/login', async (req, res) => {
 // });
 
 
+app.get("/api/postagens", async(req, res)=> {
+    try{
+        const posts = await getPosts();
+        res.status(200).json(posts);
+    }catch(e){
+        res.status(500).json({
+            success: false,
+            message: "Erro ao buscar postagens"
+        });
+    }
+})
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

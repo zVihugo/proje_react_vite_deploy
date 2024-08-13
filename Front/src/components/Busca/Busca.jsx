@@ -44,7 +44,7 @@ const Busca = ({ onSearch, reset }) => {
         `https://dragonball-api.com/api/characters?page=${page}`
       );
       const data = await response.json();
-      console.log(data);
+    
       fetched = fetched.concat(data.items);
     }
     setPersonagems(fetched);

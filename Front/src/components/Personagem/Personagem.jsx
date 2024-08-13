@@ -15,6 +15,18 @@ const Personagem = ({personagem}) => {
                 </Card.Text>
             </Card.Body>
         </Card>
+
+        // <Card style={{width: '30rem', marginTop: '20px'}}>
+        // <Card.Body>
+        //     <Card.Title>
+        //         {personagem.titulo}
+        //     </Card.Title>   
+        //     <Card.Img variant="" src={personagem.imagem}/>
+        //     <Card.Text>
+        //         {personagem.conteudo}
+        //     </Card.Text>
+        // </Card.Body>
+        // </Card>
     )
 }
 

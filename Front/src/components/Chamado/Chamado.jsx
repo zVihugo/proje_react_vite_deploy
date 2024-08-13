@@ -1,4 +1,6 @@
 import React, { useState, createContext, useEffect, useMemo } from "react";
+import axios from "axios";
+import { API_URL } from "../../config/config";
 
 export const PersonagemContext = createContext();
 
@@ -15,22 +17,6 @@ const Chamado = ({ children }) => {
     setSuggestions([])
   };
 
-  // //utilizar depois caso queira buscar todos os personagens
-  // const fetchAllPersonagens = async () => {
-  //   let fetched = [];
-  //   for (let page = 1; page <= 7; page++) {
-  //     const response = await fetch(
-  //       `https://dragonball-api.com/api/characters?page=${page}`
-  //     );
-  //     const data = await response.json();
-  //     console.log(data);
-  //     fetched = fetched.concat(data.items);
-  //   }
-  //   setPersonagems(fetched);
-  // };
-  
-
-
   const fetchPersonagens = async (searchName) => {
     setInput(searchName);
     console.log("searchName = ", searchName);
@@ -42,6 +28,17 @@ const Chamado = ({ children }) => {
       setPersonagems(data);
     }
   };
+
+  // const fetchPersonagens = async () => {
+  //   setInput(searchName);
+  //   console.log("searchName = ", searchName);
+  //   try{
+  //     const response = await axios.get(`${API_URL}/api/postagens/${searchName}`);
+  //     setPersonage
+  //   }
+  // }
+
+  
   const handleSearch = async (searchTerm) => {
     if (searchTerm.trim().length< 2) {
       setError(true);

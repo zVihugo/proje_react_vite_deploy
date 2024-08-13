@@ -1,4 +1,11 @@
-import React, { useContext} from "react";
+import React, { useContext, useEffect} from "react";
+
+//Importando axios
+import axios from 'axios';
+
+
+//importando URL da API
+import { API_URL } from "../../config/config";
 
 //Chamado dos componentestes
 import Busca from "../../components/Busca/Busca";
@@ -17,7 +24,21 @@ import { PersonagemContext } from "../../components/Chamado/Chamado";
 
 function Inicial() {
   const { handleSearch, input, personagems, reset, error} =
-    useContext(PersonagemContext);
+  useContext(PersonagemContext);
+
+  useEffect(() => {
+    const fetchPostagens = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/postagens`);
+        console.log(response.data); // Exibir os dados no console
+      } catch (error) {
+        console.error("Erro ao buscar postagens:", error);
+      }
+    };
+
+    fetchPostagens();
+  }, []);
+
 
   return (
     <div className="d-flex flex-column align-items-center white-background"> 
