@@ -1,19 +1,22 @@
-import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./Login.module.css";
+import React, { useState } from 'react';
+import axios from 'axios';
+import styles from './Login.module.css'; // Certifique-se de que o caminho está correto
 
-function Login() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+const Login = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-
-    if (username === "admin" && password === "password") {
-      alert("Login bem-sucedido!");
-    } else {
-      setError("Nome de usuário ou senha incorretos.");
+    try {
+      const response = await axios.post('http://localhost:3333/api/login', {
+        username,
+        password,
+      });
+      console.log(response.data);
+    } catch (err) {
+      setError('Erro ao fazer login');
     }
   };
 
@@ -44,10 +47,10 @@ function Login() {
           />
         </div>
         {error && <div className="alert alert-danger">{error}</div>}
-        <button type="submit" className="btn btn-primary">Entrar</button>
+        <button type="submit" className="btn btn-primary">Login</button>
       </form>
     </div>
   );
-}
+};
 
 export default Login;
