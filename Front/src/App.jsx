@@ -17,12 +17,11 @@ const App = () => {
         {/* <Navbar/> */}
         <div className="container">
           <Routes>
-            {/* Pagina Inicial */}
-            <Route path="/" element={<Inicial/>}/>
-            <Route path="/Auth" element={<Login/>}/>
+            
+            <Route path="/Inicial" element={<Inicial/>}/>
+            <Route path="/" element={<Login/>}/>
             <Route path="/Insertion" element={<Insertion/>}/>
             
-            {/* Caso o usuário não ache a página, ele será redirecionado para a página inicial */}
             <Route path="*" element={<Navigate to="/"/>}/>
           </Routes>
           </div>

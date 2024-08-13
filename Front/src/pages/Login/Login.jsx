@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import styles from './Login.module.css'; // Certifique-se de que o caminho está correto
+import styles from './Login.module.css';
+import {login} from "../../services/authServices";
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -9,47 +10,38 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    console.log(username, password);
     try {
-      const response = await axios.post('http://localhost:3333/api/login', {
-        username,
-        password,
-      });
-      console.log(response.data);
+      const data = await login(username, password);
+      console.log(data);
+
+      if (data.success) {
+        window.location.href = "/Inicial";
+      } else {
+        setError('Usuário não encontrado, verifique novamente!!!');
+      }
     } catch (err) {
-      setError('Erro ao fazer login');
+      setError(err.message);
     }
   };
 
   return (
-    <div className={`d-flex flex-column align-items-center ${styles["white-background"]}`}>
-      <h1 className="mb-4">Login</h1>
-      <form onSubmit={handleLogin} className="w-80">
-        <div className="mb-4">
-          <label htmlFor="username" className="form-label">Nome de Usuário</label>
-          <input
-            type="text"
-            className="form-control"
-            id="username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
-        </div>
-        <div className="mb-4">
-          <label htmlFor="password" className="form-label">Senha</label>
-          <input
-            type="password"
-            className="form-control"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        {error && <div className="alert alert-danger">{error}</div>}
-        <button type="submit" className="btn btn-primary">Login</button>
-      </form>
-    </div>
+    <form onSubmit={handleLogin}>
+      <input
+        type="text"
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+        placeholder="Username"
+      />
+      <input
+        type="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        placeholder="Password"
+      />
+      <button type="submit">Login</button>
+      {error && <p>{error}</p>}
+    </form>
   );
 };
 
