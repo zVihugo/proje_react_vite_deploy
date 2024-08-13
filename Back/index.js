@@ -3,14 +3,18 @@ const cors = require('cors');
 const install = require("./Routes/install");
 
 //mongoose
-const mongoose = require("mongoose");
+
+const connectDB = require('./helpers/banco'); 
 const User = require("./model/user");
 
 const app = express();
 const port = 3333;
 
+connectDB();
+
 app.use("/install", install);
 
+app.use(cors());
 
 app.get("/api", (req, res) => {
     res.send("Hello World");
@@ -28,10 +32,9 @@ app.post('/api/login', async (req, res) => {
     }
   });
 
-app.use(cors());
+
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
 
-require("././helpers/banco");
