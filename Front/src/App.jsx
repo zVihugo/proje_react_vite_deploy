@@ -13,13 +13,14 @@ import Navbar from './components/Navbar/Navbar'
 const App = () => {
   return (
     <div className="App">
+      <Navbar/>
       <BrowserRouter>
-        {/* <Navbar/> */}
         <div className="container">
           <Routes>
+            <Route path="/" element={<Login/>}/>
             
             <Route path="/Inicial" element={<Inicial/>}/>
-            <Route path="/" element={<Login/>}/>
+            
             <Route path="/Insertion" element={<Insertion/>}/>
             
             <Route path="*" element={<Navigate to="/"/>}/>
@@ -27,6 +28,7 @@ const App = () => {
           </div>
       </BrowserRouter>
     </div>
+   
   )
 }
 

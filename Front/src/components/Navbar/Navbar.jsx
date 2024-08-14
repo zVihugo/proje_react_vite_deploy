@@ -1,25 +1,25 @@
-import React from 'react'
-import styles from './Navbar.module.css'
-import {NavLink} from 'react-router-dom'
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import "./Navbar.module.css";
 
 
-const Navbar = () => {
+function NavbarInitial() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary custom-navbar">
+      <Container>
+        <Navbar.Brand href="/Inicial">Dragon Ball</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/Inicial">Home</Nav.Link>
+            <Nav.Link href="/Insertion">Inserir Postagens</Nav.Link>            
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
 
-    return (
-            <nav className={styles.navbar}>
-                <ul className={styles.links_list}>
-                    <li>
-                        <NavLink to="/" className={({isActive}) => `${styles.noEffect} ${isActive ? styles.active : ""}`}>Home</NavLink>
-                    </li>
-                    <li>
-                    <NavLink to="/Session" className={({isActive}) => `${styles.noEffect} ${isActive ? styles.active : ""}`}>Login</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/Insert" className={({isActive}) => `${styles.noEffect} ${isActive ? styles.active : ""}`}>Inserir</NavLink>
-                    </li>
-                </ul>
-            </nav>
-        )
-    }
-
-export default Navbar
+export default NavbarInitial;

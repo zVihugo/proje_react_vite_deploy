@@ -24,21 +24,33 @@ const Login = () => {
   };
 
   return (
-    <form onSubmit={handleLogin}>
-      <input
-        type="text"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        placeholder="Username"
-      />
-      <input
-        type="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
-      />
-      <button type="submit">Login</button>
-      {error && <p>{error}</p>}
+    <form onSubmit={handleLogin} className="w-60 mx-auto mt-5">
+      <div className="mb-3">
+        <label htmlFor="username" className="form-label">Nome de Usuário</label>
+        <input
+          type="text"
+          className="form-control"
+          id="username"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          placeholder="Nome de Usuário"
+          required
+        />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="password" className="form-label">Senha</label>
+        <input
+          type="password"
+          className="form-control"
+          id="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Senha"
+          required
+        />
+      </div>
+      {error && <div className="alert alert-danger">{error}</div>}
+      <button type="submit" className="btn btn-primary w-100">Login</button>
     </form>
   );
 };
