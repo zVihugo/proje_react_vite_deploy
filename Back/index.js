@@ -78,6 +78,7 @@ app.get("/api/postagens/:titulo", async(req, res)=> {
     console.log(titulo);
     try{
         const post = await searchPost(titulo);
+        console.log(post);
         res.status(200).json(post);
     }catch(e){
         res.status(500).json({

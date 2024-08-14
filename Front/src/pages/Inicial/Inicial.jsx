@@ -18,6 +18,7 @@ import { PersonagemContext } from "../../components/Chamado/Chamado";
 function Inicial() {
   const { handleSearch, input, personagems, reset, error} =
   useContext(PersonagemContext);
+  console.log("Eu to aqui", personagems);
 
   return (
     <div className="d-flex flex-column align-items-center white-background"> 
@@ -34,7 +35,8 @@ function Inicial() {
     {input.trim() !== "" && personagems.length === 0 && <ErrorName />}
   
     {Array.isArray(personagems) && personagems.map((personagem) => (
-      <Personagem key={personagem.ids} personagem={personagem} />
+   
+      <Personagem key={personagem.post._id} personagem={personagem.post} />
     ))}
   </div>
   );

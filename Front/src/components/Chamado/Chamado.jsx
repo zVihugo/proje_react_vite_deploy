@@ -36,7 +36,7 @@ const Chamado = ({ children }) => {
       const response = await axios.get(`${API_URL}/api/postagens/${searchName}`);
       const data = response.data;
       console.log(data);
-      setPersonagems(data);
+      setPersonagems([data]);
       console.log(personagems)
     } catch (error) {
       console.error("Erro ao buscar postagens:", error);
