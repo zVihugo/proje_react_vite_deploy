@@ -23,15 +23,13 @@ app.get("/api", (req, res) => {
 
 app.post('/api/login', async (req, res) => {
   const { username, password } = req.body;
-  console.log(username, password);
-
+ 
   try {
       const existingUser = await User.findOne({ username });
       if (existingUser) {
           const isMatch = await bcrypt.compare(password, existingUser.password);
           if (isMatch) {
               const token =  jwt.sign({ username: existingUser.username }, 'secret', { expiresIn: '300' });
-              console.log(token);
               res.status(200).json({succes: true, message: 'Login bem-sucedido' });
           } else {
               res.status(401).json({ succes: false, message: 'Senha incorreta' });
@@ -74,6 +72,20 @@ app.get("/api/postagens", async(req, res)=> {
         });
     }
 })
+
+app.get("/api/postagens/:titulo", async(req, res)=> {
+    const {titulo} = req.params;
+    console.log(titulo);
+    try{
+        const post = await searchPost(titulo);
+        res.status(200).json(post);
+    }catch(e){
+        res.status(500).json({
+            success: false,
+            message: "Erro ao buscar postagem"
+        });
+    }
+});
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

@@ -1,19 +1,19 @@
 import React, { useState, useEffect, useContext } from "react";
 import Button from "react-bootstrap/Button";
 import "./Buscar-style.css";
-
+import axios from "axios";
+import { API_URL } from "../../config/config";
 
 const Busca = ({ onSearch, reset }) => {
   const [inputValue, setInputValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [personagems, setPersonagems] = useState([]);
 
-
   const handleReset = () => {
     reset();
     setInputValue("");
     setSuggestions([]);
-  }
+  };
 
   useEffect(() => {
     fetchAllPersonagens();
@@ -21,11 +21,15 @@ const Busca = ({ onSearch, reset }) => {
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
+    console.log("e.target.value = ", e.target.value);
+    console.log(personagems);
     const filteredSuggestions = personagems.filter((personagem) =>
-      personagem.name.toLowerCase().startsWith(e.target.value.toLowerCase())
+      
+      personagem.titulo.toLowerCase().startsWith(e.target.value.toLowerCase())
     );
+    console.log(filteredSuggestions);
     setSuggestions(filteredSuggestions);
-    if(e.target.value === "") setSuggestions([]); 
+    if (e.target.value === "") setSuggestions([]);
   };
 
   const handleKeyPress = (e) => {
@@ -37,15 +41,30 @@ const Busca = ({ onSearch, reset }) => {
     }
   };
 
+  // const fetchAllPersonagens = async () => {
+  //   let fetched = [];
+  //   for (let page = 1; page <= 7; page++) {
+  //     const response = await fetch(
+  //       `https://dragonball-api.com/api/characters?page=${page}`
+  //     );
+  //     const data = await response.json();
+
+  //     fetched = fetched.concat(data.items);
+  //     console.log(fetched);
+  //   }
+  //   setPersonagems(fetched);
+  // };
+
   const fetchAllPersonagens = async () => {
     let fetched = [];
-    for (let page = 1; page <= 7; page++) {
-      const response = await fetch(
-        `https://dragonball-api.com/api/characters?page=${page}`
-      );
-      const data = await response.json();
-    
-      fetched = fetched.concat(data.items);
+    try {
+      const response = await axios.get(`${API_URL}/api/postagens`);
+      const data = response.data;
+      console.log(data.posts);
+      fetched = fetched.concat(data.posts);
+      console.log(fetched);
+    } catch (error) {
+      console.error("Erro ao buscar personagens:", error);
     }
     setPersonagems(fetched);
   };
@@ -62,8 +81,12 @@ const Busca = ({ onSearch, reset }) => {
       />
       <div className="sugestoes">
         {suggestions.map((suggestion) => (
-          <div key={suggestion.id} className="sugestao" onClick={() => onSearch(suggestion.name)}>
-            {suggestion.name}
+          <div
+            key={suggestion._id}
+            className="sugestao"
+            onClick={() => onSearch(suggestion.titulo)}
+          >
+            {suggestion.titulo}
           </div>
         ))}
       </div>

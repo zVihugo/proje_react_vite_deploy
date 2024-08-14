@@ -3,7 +3,8 @@ const mongoose = require("mongoose");
 const postagemSchema = new mongoose.Schema({
     titulo: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     imagem: {
         type: String,
@@ -58,7 +59,8 @@ const getPosts = async() => {
 
 const searchPost = async(titulo) => {
     try{
-        const post = await Postagem.findOne({titulo});
+      
+        const post = await Postagem.findOne({titulo: titulo});
         if(post){
             return {
                 success: true,

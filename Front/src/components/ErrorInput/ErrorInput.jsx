@@ -15,12 +15,6 @@ const ErrorInput = () => {
       <p className='d-flex justify-content-center'>Parece que alguem aqui ta querendo me dificultar</p>
     </Alert>
 
-    
-    // <div className="d-flex flex-column align-items-center text-center bg-light p-3 rounded">
-    //   <img src={imagem} alt="mano Brown Coelinho" className="mb-3" />
-    //   <p className="font-weight-bold text-danger">Digita o nome meu rei</p>
-    //   <p className="text-muted">Parece que alguem aqui ta querendo me dificultar</p>
-    // </div>
   )
 }
 

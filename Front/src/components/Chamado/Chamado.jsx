@@ -14,50 +14,58 @@ const Chamado = ({ children }) => {
     setPersonagems([]);
     setInput("");
     setError(null);
-    setSuggestions([])
+    setSuggestions([]);
   };
+
+  // const fetchPersonagens = async (searchName) => {
+  //   setInput(searchName);
+  //   console.log("searchName = ", searchName);
+  //   for (let page = 1; page <= 7; page++) {
+  //     const response = await fetch(
+  //       `https://dragonball-api.com/api/characters?name=${searchName}`
+  //     );
+  //     const data = await response.json();
+  //     setPersonagems(data);
+  //   }
+  // };
 
   const fetchPersonagens = async (searchName) => {
     setInput(searchName);
     console.log("searchName = ", searchName);
-    for (let page = 1; page <= 7; page++) {
-      const response = await fetch(
-        `https://dragonball-api.com/api/characters?name=${searchName}`
-      );
-      const data = await response.json();
+    try {
+      const response = await axios.get(`${API_URL}/api/postagens/${searchName}`);
+      const data = response.data;
+      console.log(data);
       setPersonagems(data);
+      console.log(personagems)
+    } catch (error) {
+      console.error("Erro ao buscar postagens:", error);
+      setPersonagems([]);
     }
   };
 
-  // const fetchPersonagens = async () => {
-  //   setInput(searchName);
-  //   console.log("searchName = ", searchName);
-  //   try{
-  //     const response = await axios.get(`${API_URL}/api/postagens/${searchName}`);
-  //     setPersonage
-  //   }
-  // }
-
-  
   const handleSearch = async (searchTerm) => {
-    if (searchTerm.trim().length< 2) {
+    if (!searchTerm || searchTerm.trim().length < 1) {
       setError(true);
-      return
+      return;
     } else {
-      setError(null)
+      setError(null);
       await fetchPersonagens(searchTerm);
     }
   };
-  const value = useMemo(() => ({
-    personagems,
-    reset,
-    fetchPersonagens,
-    handleSearch,
-    suggestions,
-    input,
-    error,
-    setInput
-  }), [personagems, input, error, suggestions]);
+  const value = useMemo(
+    () => ({
+      personagems,
+      reset,
+      fetchPersonagens,
+      handleSearch,
+      suggestions,
+      input,
+      error,
+      setInput,
+    }),
+    [personagems, input, error, suggestions]
+  );
 
   return (
     <PersonagemContext.Provider value={value}>
