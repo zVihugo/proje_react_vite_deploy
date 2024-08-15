@@ -1,21 +1,36 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./Insertion.module.css";
+import axios from 'axios';
+import { API_URL } from "../../config/config";
 
-function Insertion() {
+const Insertion = () => {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [description, setDescription] = useState("");
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
-  const handleInsertion = (e) => {
+  const handleInsertion = async (e) => {
     e.preventDefault();
+    setError("");
+    setSuccess("");
 
-    if (name && image && description) {
-      alert("Personagem inserido com sucesso!");
-      
-    } else {
-      setError("Todos os campos são obrigatórios.");
+    try {
+      const response = await axios.post(`${API_URL}/api/postagens`, {
+        titulo: name,
+        imagem: image,
+        conteudo: description
+      });
+
+      if (response.status === 200) {
+        setSuccess("Postagem criada com sucesso!");
+        setName("");
+        setImage("");
+        setDescription("");
+      }
+    } catch (err) {
+      setError("Erro ao criar postagem. Por favor, tente novamente.");
     }
   };
 
@@ -56,6 +71,7 @@ function Insertion() {
           />
         </div>
         {error && <div className="alert alert-danger">{error}</div>}
+        {success && <div className="alert alert-success">{success}</div>}
         <button type="submit" className="btn btn-primary">Inserir</button>
       </form>
     </div>

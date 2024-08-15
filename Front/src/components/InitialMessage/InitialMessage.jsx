@@ -5,9 +5,9 @@ import homer from '../../images/homer-duvida.png'
 const InitialMessage = () => {
     return (
         
-        <div className='d-flex flex-column align-items-center text-center bg-light p-3 rounded mt-3'>
+        <div className='d-flex flex-column align-items-center text-center bg-light p-2 rounded mt-2'>
             <p className='font-weight-bold'>Vamos iniciar a pesquisa?</p>
-            <img src={homer} alt="homer-barrigudo" />
+            <img src={homer} alt="homer-barrigudo" style={{ width: '200px', height: 'auto' }}/>
             <p className='font-weight-bold'>basta digitar o nome do personagem escolhido....</p>
         </div>
     )

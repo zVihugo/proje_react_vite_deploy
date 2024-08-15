@@ -41,20 +41,6 @@ const Busca = ({ onSearch, reset }) => {
     }
   };
 
-  // const fetchAllPersonagens = async () => {
-  //   let fetched = [];
-  //   for (let page = 1; page <= 7; page++) {
-  //     const response = await fetch(
-  //       `https://dragonball-api.com/api/characters?page=${page}`
-  //     );
-  //     const data = await response.json();
-
-  //     fetched = fetched.concat(data.items);
-  //     console.log(fetched);
-  //   }
-  //   setPersonagems(fetched);
-  // };
-
   const fetchAllPersonagens = async () => {
     let fetched = [];
     try {
@@ -96,12 +82,12 @@ const Busca = ({ onSearch, reset }) => {
       >
         <Button
           onClick={() => handleKeyPress({ key: "Enter" })}
-          variant="success"
+          variant="dark"
           size="lg"
         >
           Buscar
         </Button>
-        <Button onClick={() => handleReset()} variant="primary" size="lg">
+        <Button onClick={() => handleReset()} variant="secondary" size="lg">
           Resetar
         </Button>
       </div>

@@ -16,7 +16,7 @@ const Personagem = ({ personagem }) => {
     //     </Card.Body>
     // </Card>
 
-    <Card style={{ width: "10rem", marginTop: "20px" }}>
+    <Card style={{ width: "20rem", marginTop: "20px" }}>
       <Card.Body>
         <Card.Title>{personagem.titulo}</Card.Title>
         <Card.Img variant="" src={personagem.imagem} />

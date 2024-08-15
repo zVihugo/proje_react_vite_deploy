@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import {login} from "../../services/authServices";
 
+
+
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -13,7 +15,7 @@ const Login = () => {
       const data = await login(username, password);
       console.log(data);
 
-      if (data.success) {
+      if (data) {
         window.location.href = "/Inicial";
       } else {
         setError('Usuário não encontrado, verifique novamente!!!');
@@ -25,6 +27,7 @@ const Login = () => {
 
   return (
     <form onSubmit={handleLogin} className="w-60 mx-auto mt-5">
+      <h2>Página de login</h2>
       <div className="mb-3">
         <label htmlFor="username" className="form-label">Nome de Usuário</label>
         <input

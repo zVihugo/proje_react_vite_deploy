@@ -1,7 +1,7 @@
 .sugestoes {
-    margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-bottom: 20px;
     background-color: #f8f8f8;
     max-height: 200px;
     overflow-y: auto;
@@ -13,5 +13,5 @@
   }
   
   .sugestoes .sugestao:hover {
-    background-color: #e8e8e8;
+    background-color: #afafaf;
   }

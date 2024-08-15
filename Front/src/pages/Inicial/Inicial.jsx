@@ -22,9 +22,9 @@ function Inicial() {
 
   return (
     <div className="d-flex flex-column align-items-center white-background"> 
-    <h1 className="mb-3">Personagens Dragon Ball</h1>
+    <h1 className="mb-3">Seja, bem vindo(a)</h1>
     <p className="text-center">
-      Você pode buscar um personagem específico, basta digitar o nome abaixo!
+      Nossa api tem o tema Dragon Ball, Aqui você pode encontrar alguns personagens desta série!
     </p>
     <Busca onSearch={handleSearch} reset={reset} />
   
@@ -32,10 +32,9 @@ function Inicial() {
   
     {input.trim() === "" && error && <ErrorInput />}
   
-    {input.trim() !== "" && personagems.length === 0 && <ErrorName />}
+    {input.trim() !== "" && (!personagems || personagems.length === 0) && <ErrorName />}
   
     {Array.isArray(personagems) && personagems.map((personagem) => (
-   
       <Personagem key={personagem.post._id} personagem={personagem.post} />
     ))}
   </div>

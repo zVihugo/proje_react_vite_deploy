@@ -36,11 +36,16 @@ const Chamado = ({ children }) => {
       const response = await axios.get(`${API_URL}/api/postagens/${searchName}`);
       const data = response.data;
       console.log(data);
-      setPersonagems([data]);
-      console.log(personagems)
+      if (data && data.length > 0) {
+        setPersonagems([data]);
+      } else {
+        setPersonagems(null);
+        console.log("Nenhum personagem encontrado");
+      }
+      console.log(personagems);
     } catch (error) {
       console.error("Erro ao buscar postagens:", error);
-      setPersonagems([]);
+      setPersonagems(null);
     }
   };
 

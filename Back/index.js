@@ -88,6 +88,22 @@ app.get("/api/postagens/:titulo", async(req, res)=> {
     }
 });
 
+//Rota para inserir postagem
+
+app.post("/api/postagens", async(req, res)=> {
+    const {titulo, imagem, conteudo} = req.body;
+    try{
+        const post = await addPost(titulo, imagem, conteudo);
+        res.status(200).json(post);
+    }catch(e){
+        res.status(500).json({
+            success: false,
+            message: "Erro ao criar postagem"
+        });
+    }
+});
+
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
