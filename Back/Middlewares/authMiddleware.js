@@ -1,21 +1,27 @@
 const jwt = require('jsonwebtoken');
-const dotenv = require("dotenv");
+const dotenv = require('dotenv');
 
-dotenv.config({ path: "./.env" });
+dotenv.config();
 
 const authMiddleware = (req, res, next) => {
-    const token = req.header('Authorization')
-
-    if (!token) {
-        return res.status(401).json({ success: false, message: 'Token não fornecido' });
+    const authHeader = req.headers['authorization'];
+    if (!authHeader) {
+      return res.status(401).json({ msg: 'Token nao inserido' });
     }
-
+    const token = authHeader && authHeader.split(' ')[1];
+    if (!token) {
+        console.log("nao tem token")
+      return res.status(401).json({ msg: 'Acesso negado' });
+    }
     try {
-        const decoded = jwt.verify(token, process.env.JWT_SECRET); 
-        req.user = decoded;
-        next();
-    } catch (err) {
-        return res.status(401).json({ success: false, message: 'Token inválido' });
+    //   const secret = process.env.SECRET;
+    // Lembrar de tirar o secret do código e colocar a variavel que está dentro do .env
+      jwt.verify(token, "secret");
+
+      next();
+    } catch (error) {
+        console.error(error);
+        return res.status(400).json({ msg: 'token invalido, por favor faça login novamente' });
     }
 };
 

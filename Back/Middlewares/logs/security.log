@@ -1,0 +1,13 @@
+2024-08-15T23:36:23.470Z - GET /api/postagens
+2024-08-15T23:36:27.112Z - GET /api/postagens
+2024-08-15T23:36:49.440Z - GET /api/postagens - ::1
+2024-08-15T23:36:54.776Z - OPTIONS /api/postagens - ::1
+2024-08-15T23:36:54.780Z - POST /api/postagens - ::1
+2024-08-15T23:37:00.096Z - OPTIONS /api/login - ::1
+2024-08-15T23:37:00.099Z - POST /api/login - ::1
+2024-08-15T23:37:00.602Z - GET /api/postagens - ::1
+2024-08-15T23:37:03.294Z - GET /api/postagens - ::1
+2024-08-15T23:39:59.173Z - GET /api/postagens - ::1
+2024-08-15T23:42:04.579Z - GET /api/postagens - ::1
+2024-08-15T23:42:05.299Z - GET /api/postagens - ::1
+2024-08-15T23:42:13.452Z - GET /api/postagens - ::1

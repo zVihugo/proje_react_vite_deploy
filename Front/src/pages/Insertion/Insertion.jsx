@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./Insertion.module.css";
 import axios from 'axios';
 import { API_URL } from "../../config/config";
+import {getToken} from "../../services/authServices";
 
 const Insertion = () => {
   const [name, setName] = useState("");
@@ -16,13 +17,21 @@ const Insertion = () => {
     setError("");
     setSuccess("");
 
+    const token = getToken();
+    console.log(token);
+
     try {
       const response = await axios.post(`${API_URL}/api/postagens`, {
         titulo: name,
         imagem: image,
         conteudo: description
+      }, {
+        headers: {
+          'Authorization': `Bearer ${token}` 
+        }
       });
 
+      console.log(response);
       if (response.status === 200) {
         setSuccess("Postagem criada com sucesso!");
         setName("");
@@ -30,7 +39,7 @@ const Insertion = () => {
         setDescription("");
       }
     } catch (err) {
-      setError("Erro ao criar postagem. Por favor, tente novamente.");
+      setError(response.msg);
     }
   };
 

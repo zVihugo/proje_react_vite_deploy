@@ -6,7 +6,8 @@ const dotenv = require("dotenv");
 const {Postagem} = require("../model/postagens");
 
 
-dotenv.config();  
+dotenv.config(); 
+ 
 router.get("/", async (req, res) => {
   try {
     console.log("Iniciando a instalação do banco de dados...");

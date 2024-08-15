@@ -7,6 +7,7 @@ const jwt = require('jsonwebtoken');
 const User = require("./model/user");
 const {getPosts, addPost, searchPost} = require("./model/postagens");
 const authMiddleware = require('./Middlewares/authMiddleware');
+const logMiddleware = require('./Middlewares/logMiddleware');
 const app = express();
 const dotenv = require("dotenv");
 const port = 3333;
@@ -16,7 +17,7 @@ dotenv.config({ path: "./.env" });
 connectDB();
 
 app.use("/api/install", install);
-
+app.use(logMiddleware);
 app.use(cors());
 app.use(express.json());
 
@@ -32,7 +33,7 @@ app.post('/api/login', async (req, res) => {
       if (existingUser) {
           const isMatch = await bcrypt.compare(password, existingUser.password);
           if (isMatch) {
-              const token =  jwt.sign({ username: existingUser.username }, process.env.JWT_SECRET, { expiresIn: '300' });
+              const token =  jwt.sign({ username: existingUser.username }, "secret", { expiresIn: '1h' });
               console.log(token);
               res.status(200).json({succes: true, message: 'Login bem-sucedido', user: existingUser, token: token});
           } else {
@@ -94,7 +95,7 @@ app.get("/api/postagens/:titulo", async(req, res)=> {
 
 //Rota para inserir postagem
 
-app.post("/api/postagens", async(req, res)=> {
+app.post("/api/postagens", authMiddleware, async(req, res)=> {
     const {titulo, imagem, conteudo} = req.body;
     try{
         const post = await addPost(titulo, imagem, conteudo);
@@ -107,6 +108,18 @@ app.post("/api/postagens", async(req, res)=> {
     }
 });
 
+//Rota criada para teste, excluir depois
+app.post('/api/logout', authMiddleware, (req, res) => {
+    const authHeader = req.headers['authorization'];
+    const token = authHeader && authHeader.split(' ')[1];
+
+    if (token) {
+        revokedTokens.push(token);
+        res.status(200).json({ message: 'Token revogado com sucesso' });
+    } else {
+        res.status(400).json({ message: 'Token não fornecido' });
+    }
+});
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

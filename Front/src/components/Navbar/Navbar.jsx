@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../images/favicon.png"
 
+
+
 function ColorSchemesExample() {
   return (
     <>
@@ -19,7 +21,7 @@ function ColorSchemesExample() {
             <Nav.Link href="/Insertion" className="text-white">
               Inserir
             </Nav.Link>
-            <Nav.Link href="/Sair" className="text-white float-start">
+            <Nav.Link href="/Sair" className="text-white float-start" >
               Sair
             </Nav.Link>
           </Nav>
