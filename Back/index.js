@@ -30,7 +30,7 @@ app.post('/api/login', async (req, res) => {
           const isMatch = await bcrypt.compare(password, existingUser.password);
           if (isMatch) {
               const token =  jwt.sign({ username: existingUser.username }, 'secret', { expiresIn: '300' });
-              res.status(200).json({succes: true, message: 'Login bem-sucedido' });
+              res.status(200).json({succes: true, message: 'Login bem-sucedido', user: existingUser});
           } else {
               res.status(401).json({ succes: false, message: 'Senha incorreta' });
           }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {login} from "../../services/authServices";
+import Inicial from "../Inicial/Inicial";
 
 
 
@@ -7,6 +8,7 @@ const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+ 
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -14,8 +16,9 @@ const Login = () => {
     try {
       const data = await login(username, password);
       console.log(data);
+     
 
-      if (data) {
+      if (data.succes) {
         window.location.href = "/Inicial";
       } else {
         setError('Usuário não encontrado, verifique novamente!!!');
@@ -27,7 +30,7 @@ const Login = () => {
 
   return (
     <form onSubmit={handleLogin} className="w-60 mx-auto mt-5">
-      <h2>Página de login</h2>
+      <h2>login</h2>
       <div className="mb-3">
         <label htmlFor="username" className="form-label">Nome de Usuário</label>
         <input
@@ -36,7 +39,7 @@ const Login = () => {
           id="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder="Nome de Usuário"
+          placeholder="Insira o nome de usuário"
           required
         />
       </div>
@@ -48,10 +51,11 @@ const Login = () => {
           id="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="Senha"
+          placeholder="*******"
           required
         />
       </div>
+    
       {error && <div className="alert alert-danger">{error}</div>}
       <button type="submit" className="btn btn-primary w-100">Login</button>
     </form>

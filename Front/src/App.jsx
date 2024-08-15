@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate, useLocation} from 'react-router-dom'
 import './App.css'
 
 //Importando Pages
@@ -13,7 +13,7 @@ import Navbar from './components/Navbar/Navbar'
 const App = () => {
   return (
     <div className="App">
-      <Navbar/>
+      {(location.pathname === '/Inicial' || location.pathname === '/Insertion') && <Navbar />}
       <BrowserRouter>
         <div className="container">
           <Routes>

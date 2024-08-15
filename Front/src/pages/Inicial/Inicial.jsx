@@ -15,14 +15,14 @@ import styles from "./Inicial.module.css";
 //Contexto
 import { PersonagemContext } from "../../components/Chamado/Chamado";
 
-function Inicial() {
+function Inicial({props}) {
   const { handleSearch, input, personagems, reset, error} =
   useContext(PersonagemContext);
   console.log("Eu to aqui", personagems);
 
   return (
     <div className="d-flex flex-column align-items-center white-background"> 
-    <h1 className="mb-3">Seja, bem vindo(a)</h1>
+    <h1 className="mb-3">Olá, bem vindo(a)</h1>
     <p className="text-center">
       Nossa api tem o tema Dragon Ball, Aqui você pode encontrar alguns personagens desta série!
     </p>
