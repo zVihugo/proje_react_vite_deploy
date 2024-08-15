@@ -42,6 +42,8 @@ const addPost = async(titulo, imagem, conteudo) => {
     }
 }
 
+
+
 const getPosts = async() => {   
     try{
         const posts = await Postagem.find();
@@ -56,6 +58,7 @@ const getPosts = async() => {
         }
     }
 }
+
 
 const searchPost = async(titulo) => {
     try{

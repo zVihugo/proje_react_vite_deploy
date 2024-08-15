@@ -36,7 +36,7 @@ const Chamado = ({ children }) => {
       const response = await axios.get(`${API_URL}/api/postagens/${searchName}`);
       const data = response.data;
       console.log(data);
-      if (data && data.length > 0) {
+      if (data.success === true) {
         setPersonagems([data]);
       } else {
         setPersonagems(null);

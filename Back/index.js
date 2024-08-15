@@ -6,9 +6,12 @@ const connectDB = require('./helpers/banco');
 const jwt = require('jsonwebtoken');
 const User = require("./model/user");
 const {getPosts, addPost, searchPost} = require("./model/postagens");
-
+const authMiddleware = require('./Middlewares/authMiddleware');
 const app = express();
+const dotenv = require("dotenv");
 const port = 3333;
+
+dotenv.config({ path: "./.env" });
 
 connectDB();
 
@@ -29,8 +32,9 @@ app.post('/api/login', async (req, res) => {
       if (existingUser) {
           const isMatch = await bcrypt.compare(password, existingUser.password);
           if (isMatch) {
-              const token =  jwt.sign({ username: existingUser.username }, 'secret', { expiresIn: '300' });
-              res.status(200).json({succes: true, message: 'Login bem-sucedido', user: existingUser});
+              const token =  jwt.sign({ username: existingUser.username }, process.env.JWT_SECRET, { expiresIn: '300' });
+              console.log(token);
+              res.status(200).json({succes: true, message: 'Login bem-sucedido', user: existingUser, token: token});
           } else {
               res.status(401).json({ succes: false, message: 'Senha incorreta' });
           }
