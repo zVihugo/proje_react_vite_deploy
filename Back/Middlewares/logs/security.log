@@ -27,3 +27,9 @@
 2024-08-15T23:58:21.104Z - OPTIONS /api/login - ::1
 2024-08-15T23:58:21.106Z - POST /api/login - ::1
 2024-08-15T23:58:21.354Z - GET /api/postagens - ::1
+2024-08-16T00:00:19.754Z - OPTIONS /api/login - ::1
+2024-08-16T00:00:19.756Z - POST /api/login - ::1
+2024-08-16T00:00:20.033Z - GET /api/postagens - ::1
+2024-08-16T00:00:22.821Z - GET /api/postagens - ::1
+2024-08-16T00:00:24.201Z - GET /api/postagens/asd - ::1
+2024-08-16T00:00:32.482Z - GET /api/postagens/Goku - ::1
