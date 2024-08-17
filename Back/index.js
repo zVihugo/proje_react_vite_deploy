@@ -53,43 +53,6 @@ app.post('/api/login', async (req, res) => {
 });
 
 
-// app.get('/api/verify', async (req, res) => {
-//     const token = req.header('Authorization');
-//     if (!token) {
-//         return res.status(401).json({ success: false, message: 'Token não fornecido' });
-//     }
-
-//     try {
-//         const decoded = jwt.verify(token, 'secret');
-//         console.log(decoded);
-//         res.status(200).json({ success: true, message: 'Token válido' });
-//     } catch (err) {
-//         console.error(err);
-//         res.status(401).json({ success: false, message: 'Token inválido' });
-//     }
-// });
-
-
-// app.get("/api/postagens", async(req, res)=> {
-//     const posts = await getPosts();
-//     console.log(posts);
-//     const postagensCache = await client.get(posts);
-//     if(postagensCache){
-//         res.status(200).json(postagensCache);
-//     }
-//     await client.set("postagens", posts, {ex: 20});
-//     res.status(200).json(posts);
-//     // try{
-//     //     const posts = await getPosts();
-//     //     res.status(200).json(posts);
-//     // }catch(e){
-//     //     res.status(500).json({
-//     //         success: false,
-//     //         message: "Erro ao buscar postagens"
-//     //     });
-//     // }
-// })
-
 app.get("/api/postagens", async (req, res) => {
     try {
         const postagensCache = await client.get("postagens");
