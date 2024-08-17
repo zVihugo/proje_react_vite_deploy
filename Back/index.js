@@ -6,6 +6,7 @@ const connectDB = require('./helpers/banco');
 const jwt = require('jsonwebtoken');
 const User = require("./model/user");
 const {getPosts, addPost, searchPost} = require("./model/postagens");
+const redis = require('redis');
 const authMiddleware = require('./Middlewares/authMiddleware');
 const logMiddleware = require('./Middlewares/logMiddleware');
 const app = express();
@@ -13,8 +14,11 @@ const dotenv = require("dotenv");
 const port = 3333;
 
 dotenv.config({ path: "./.env" });
+const client = redis.createClient();
+client.on('error', (err) => console.log('Redis Client errooooooooo', err));
 
 connectDB();
+client.connect();
 
 app.use("/api/install", install);
 app.use(logMiddleware);
@@ -66,17 +70,45 @@ app.post('/api/login', async (req, res) => {
 // });
 
 
-app.get("/api/postagens", async(req, res)=> {
-    try{
+// app.get("/api/postagens", async(req, res)=> {
+//     const posts = await getPosts();
+//     console.log(posts);
+//     const postagensCache = await client.get(posts);
+//     if(postagensCache){
+//         res.status(200).json(postagensCache);
+//     }
+//     await client.set("postagens", posts, {ex: 20});
+//     res.status(200).json(posts);
+//     // try{
+//     //     const posts = await getPosts();
+//     //     res.status(200).json(posts);
+//     // }catch(e){
+//     //     res.status(500).json({
+//     //         success: false,
+//     //         message: "Erro ao buscar postagens"
+//     //     });
+//     // }
+// })
+
+app.get("/api/postagens", async (req, res) => {
+    try {
+        const postagensCache = await client.get("postagens");
+        if (postagensCache) {
+            return res.status(200).json(JSON.parse(postagensCache));
+        }
         const posts = await getPosts();
+        console.log(posts);
+
+        await client.set("postagens", JSON.stringify(posts), { EX: 20 });
+
         res.status(200).json(posts);
-    }catch(e){
+    } catch (e) {
         res.status(500).json({
             success: false,
             message: "Erro ao buscar postagens"
         });
     }
-})
+});
 
 app.get("/api/postagens/:titulo", async(req, res)=> {
     const {titulo} = req.params;
@@ -92,8 +124,6 @@ app.get("/api/postagens/:titulo", async(req, res)=> {
         });
     }
 });
-
-//Rota para inserir postagem
 
 app.post("/api/postagens", authMiddleware, async(req, res)=> {
     const {titulo, imagem, conteudo} = req.body;
