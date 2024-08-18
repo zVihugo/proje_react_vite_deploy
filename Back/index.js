@@ -7,6 +7,7 @@ const jwt = require('jsonwebtoken');
 const User = require("./model/user");
 const {getPosts, addPost, searchPost} = require("./model/postagens");
 const redis = require('redis');
+const compression = require('compression');
 const authMiddleware = require('./Middlewares/authMiddleware');
 const logMiddleware = require('./Middlewares/logMiddleware');
 const app = express();
@@ -28,6 +29,7 @@ app.use("/api/install", install);
 app.use(logMiddleware);
 app.use(cors());
 app.use(express.json());
+app.use(compression());
 
 app.get("/api", (req, res) => {
     res.send("Hello World");

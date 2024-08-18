@@ -15,7 +15,7 @@ const authMiddleware = (req, res, next) => {
     }
     try {
     const secret = process.env.JWT_SECRET;
-    // Lembrar de tirar o secret do código e colocar a variavel que está dentro do .env
+
       jwt.verify(token, secret);
 
       next();

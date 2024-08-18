@@ -285,3 +285,12 @@
 2024-08-18T02:36:59.728Z - GET /api/postagens - ::1
 2024-08-18T02:37:00.859Z - GET /api/postagens - ::1
 2024-08-18T02:37:03.739Z - GET /api/postagens - ::1
+2024-08-18T23:44:52.679Z - OPTIONS /api/login - ::1
+2024-08-18T23:44:52.684Z - POST /api/login - ::1
+2024-08-18T23:44:53.055Z - GET /api/postagens - ::1
+2024-08-18T23:45:08.098Z - GET /api/postagens - ::1
+2024-08-18T23:45:14.169Z - GET /api/postagens - ::1
+2024-08-18T23:45:15.319Z - GET /api/postagens - ::1
+2024-08-18T23:45:16.335Z - GET /api/postagens - ::1
+2024-08-18T23:45:17.411Z - GET /api/postagens - ::1
+2024-08-18T23:45:53.621Z - GET /api/postagens/Goku - ::1
