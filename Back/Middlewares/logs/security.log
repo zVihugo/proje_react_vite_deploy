@@ -274,3 +274,14 @@
 2024-08-18T02:14:16.409Z - OPTIONS /api/login - ::1
 2024-08-18T02:14:16.411Z - POST /api/login - ::1
 2024-08-18T02:14:16.709Z - GET /api/postagens - ::1
+2024-08-18T02:36:39.419Z - OPTIONS /api/login - ::1
+2024-08-18T02:36:39.422Z - POST /api/login - ::1
+2024-08-18T02:36:39.505Z - ERROR 401 - POST /api/login - ::1
+2024-08-18T02:36:53.771Z - OPTIONS /api/login - ::1
+2024-08-18T02:36:53.772Z - POST /api/login - ::1
+2024-08-18T02:36:54.413Z - GET /api/postagens - ::1
+2024-08-18T02:36:59.120Z - OPTIONS /api/login - ::1
+2024-08-18T02:36:59.123Z - POST /api/login - ::1
+2024-08-18T02:36:59.728Z - GET /api/postagens - ::1
+2024-08-18T02:37:00.859Z - GET /api/postagens - ::1
+2024-08-18T02:37:03.739Z - GET /api/postagens - ::1

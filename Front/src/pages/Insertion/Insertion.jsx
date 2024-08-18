@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./Insertion.module.css";
+import {Navigate} from 'react-router-dom';
 import axios from 'axios';
 import { API_URL } from "../../config/config";
 import {getToken} from "../../services/authServices";
@@ -43,7 +44,8 @@ const Insertion = () => {
     } catch (err) {
       if (err.response && err.response.status === 401) {
         clearToken();
-        window.location.href = "/login";
+        window.location.href = '/login';
+        // return <Navigate to="/login" />;
       } else {
         setError("Ocorreu um erro ao criar a postagem.");
       }
