@@ -21,24 +21,32 @@ const ProtegerRotas = ({ element: Component, ...rest }) => {
 };
 
 
-const App = () => {
+const AppConteudo = () => {
+  const location = useLocation();
+
   return (
     <div className="App">
-      {(location.pathname === '/Inicial' || location.pathname === '/Insertion') && <Navbar />}
-      <BrowserRouter>
+      
+      {location.pathname !== '/login' && (location.pathname === '/Inicial' || location.pathname === '/Insertion') && <Navbar />}
         <div className="container">
           <Routes>
             <Route path="/" element={<Login/>}/>
             <Route path="/Inicial" element={<ProtegerRotas element={Inicial} />} />
             <Route path="/Insertion" element={<ProtegerRotas element={Insertion} />} />
-            
+
             <Route path="*" element={<Navigate to="/"/>}/>
           </Routes>
           </div>
-      </BrowserRouter>
+
     </div>
    
   )
 }
+
+const App = () => (
+  <BrowserRouter>
+    <AppConteudo />
+  </BrowserRouter>
+);
 
 export default App
