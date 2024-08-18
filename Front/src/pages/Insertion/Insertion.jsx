@@ -5,6 +5,7 @@ import axios from 'axios';
 import { API_URL } from "../../config/config";
 import {getToken} from "../../services/authServices";
 
+
 const Insertion = () => {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
@@ -12,17 +13,18 @@ const Insertion = () => {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
+
   const handleInsertion = async (e) => {
     e.preventDefault();
     setError("");
     setSuccess("");
-
+  
     const token = getToken();
     console.log(token);
-
+  
     try {
       const response = await axios.post(`${API_URL}/api/postagens`, {
-        titulo: name,
+        titulo: name.charAt(0).toUpperCase() + name.slice(1).toLowerCase(),
         imagem: image,
         conteudo: description
       }, {
@@ -39,7 +41,12 @@ const Insertion = () => {
         setDescription("");
       }
     } catch (err) {
-      setError(response.msg);
+      if (err.response && err.response.status === 401) {
+        clearToken();
+        window.location.href = "/login";
+      } else {
+        setError("Ocorreu um erro ao criar a postagem.");
+      }
     }
   };
 

@@ -19,21 +19,9 @@ export const login = async (username, password) => {
 
 export const getToken = () => {
   const token = localStorage.getItem('token');
-  if (!token) {
-    throw new Error('Token não encontrado');
-  }
-  return token;
+  return token || null;
 }
 
-export const verifyToken = async (token) => {
-    try {
-        const response = await axios.get(`${API_URL}/api/verify`, {
-            headers: {
-                'Authorization': token
-            }
-        });
-        return response.data;
-    } catch(err){
-        throw new Error("Token inválido, necessário autenticação novamente");
-    }
+export const clearToken = () => {
+  localStorage.removeItem('token');
 }

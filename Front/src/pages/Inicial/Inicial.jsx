@@ -10,12 +10,12 @@ import InitialMessage from "../../components/InitialMessage/InitialMessage";
 
 //biblioteca css
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./Inicial.module.css";
+
 
 //Contexto
 import { PersonagemContext } from "../../components/Chamado/Chamado";
 
-function Inicial({props}) {
+function Inicial() {
   const { handleSearch, input, personagems, reset, error} =
   useContext(PersonagemContext);
   console.log("Eu to aqui", personagems);

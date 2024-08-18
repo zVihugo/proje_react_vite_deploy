@@ -20,13 +20,19 @@ const Busca = ({ onSearch, reset }) => {
   }, []);
 
   const handleChange = (e) => {
-    setInputValue(e.target.value);
+    const maisculo = (string) => {
+      return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+    };
+  
+    const inputValue = maisculo(e.target.value);
+    setInputValue(inputValue);
     console.log("e.target.value = ", e.target.value);
     console.log(personagems);
+  
     const filteredSuggestions = personagems.filter((personagem) =>
-      
-      personagem.titulo.toLowerCase().startsWith(e.target.value.toLowerCase())
+      personagem.titulo.toLowerCase().startsWith(inputValue.toLowerCase())
     );
+  
     console.log(filteredSuggestions);
     setSuggestions(filteredSuggestions);
     if (e.target.value === "") setSuggestions([]);

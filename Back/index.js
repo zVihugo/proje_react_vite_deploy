@@ -11,9 +11,13 @@ const authMiddleware = require('./Middlewares/authMiddleware');
 const logMiddleware = require('./Middlewares/logMiddleware');
 const app = express();
 const dotenv = require("dotenv");
-const port = 3333;
 
 dotenv.config({ path: "./.env" });
+
+const port = process.env.PORT;
+const secret = process.env.JWT_SECRET;
+
+
 const client = redis.createClient();
 client.on('error', (err) => console.log('Redis Client errooooooooo', err));
 
@@ -37,7 +41,7 @@ app.post('/api/login', async (req, res) => {
       if (existingUser) {
           const isMatch = await bcrypt.compare(password, existingUser.password);
           if (isMatch) {
-              const token =  jwt.sign({ username: existingUser.username }, "secret", { expiresIn: '1h' });
+              const token =  jwt.sign({ username: existingUser.username }, secret, { expiresIn: '1h' });
               console.log(token);
               res.status(200).json({succes: true, message: 'Login bem-sucedido', user: existingUser, token: token});
           } else {
@@ -79,7 +83,14 @@ app.get("/api/postagens/:titulo", async(req, res)=> {
     try{
         const post = await searchPost(titulo);
         console.log(post);
-        res.status(200).json(post);
+        if(post){
+            res.status(200).json(post);
+        }else{
+            res.status(404).json({
+                success: false,
+                message: "Postagem não encontrada"
+        });
+    }
     }catch(e){
         res.status(500).json({
             success: false,

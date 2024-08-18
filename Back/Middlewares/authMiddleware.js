@@ -14,9 +14,9 @@ const authMiddleware = (req, res, next) => {
       return res.status(401).json({ msg: 'Acesso negado' });
     }
     try {
-    //   const secret = process.env.SECRET;
+    const secret = process.env.JWT_SECRET;
     // Lembrar de tirar o secret do código e colocar a variavel que está dentro do .env
-      jwt.verify(token, "secret");
+      jwt.verify(token, secret);
 
       next();
     } catch (error) {
