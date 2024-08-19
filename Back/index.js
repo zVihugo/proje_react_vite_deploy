@@ -12,6 +12,10 @@ const authMiddleware = require('./Middlewares/authMiddleware');
 const logMiddleware = require('./Middlewares/logMiddleware');
 const app = express();
 const dotenv = require("dotenv");
+const {validarLogin} = require('./Middlewares/verifyMiddleware');
+const helmet = require('helmet');
+
+
 
 dotenv.config({ path: "./.env" });
 
@@ -30,12 +34,13 @@ app.use(logMiddleware);
 app.use(cors());
 app.use(express.json());
 app.use(compression());
+app.use(helmet());
 
 app.get("/api", (req, res) => {
     res.send("Hello World");
 });
 
-app.post('/api/login', async (req, res) => {
+app.post('/api/login', validarLogin, async (req, res) => {
   const { username, password } = req.body;
  
   try {
@@ -66,7 +71,7 @@ app.get("/api/postagens", async (req, res) => {
             return res.status(200).json(JSON.parse(postagensCache));
         }
         const posts = await getPosts();
-        console.log(posts);
+       
 
         await client.set("postagens", JSON.stringify(posts), { EX: 20 });
 
@@ -81,7 +86,7 @@ app.get("/api/postagens", async (req, res) => {
 
 app.get("/api/postagens/:titulo", async(req, res)=> {
     const {titulo} = req.params;
-    console.log(titulo);
+   
     try{
         const post = await searchPost(titulo);
         console.log(post);
@@ -101,12 +106,16 @@ app.get("/api/postagens/:titulo", async(req, res)=> {
     }
 });
 
-app.post("/api/postagens", authMiddleware, async(req, res)=> {
-    const {titulo, imagem, conteudo} = req.body;
-    try{
+app.post("/api/postagens", authMiddleware, async (req, res) => {
+    const { titulo, imagem, conteudo } = req.body;
+    try {
         const post = await addPost(titulo, imagem, conteudo);
+
+        const posts = await getPosts();
+        await client.set("postagens", JSON.stringify(posts), { EX: 20 });
+
         res.status(200).json(post);
-    }catch(e){
+    } catch (e) {
         res.status(500).json({
             success: false,
             message: "Erro ao criar postagem"
@@ -114,18 +123,6 @@ app.post("/api/postagens", authMiddleware, async(req, res)=> {
     }
 });
 
-//Rota criada para teste, excluir depois
-app.post('/api/logout', authMiddleware, (req, res) => {
-    const authHeader = req.headers['authorization'];
-    const token = authHeader && authHeader.split(' ')[1];
-
-    if (token) {
-        revokedTokens.push(token);
-        res.status(200).json({ message: 'Token revogado com sucesso' });
-    } else {
-        res.status(400).json({ message: 'Token não fornecido' });
-    }
-});
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

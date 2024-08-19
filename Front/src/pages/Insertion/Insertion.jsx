@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./Insertion.module.css";
 import {Navigate} from 'react-router-dom';
@@ -13,6 +13,9 @@ const Insertion = () => {
   const [description, setDescription] = useState("");
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
+  const tituloRef = useRef(null);
+  const imagemRef = useRef(null);
+  const conteudoRef = useRef(null);
 
 
   const handleInsertion = async (e) => {
@@ -64,6 +67,9 @@ const Insertion = () => {
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            onInvalid={(e) => e.target.setCustomValidity('Por favor, insira o nome do personagem')}
+            onInput={(e) => e.target.setCustomValidity('')}
+          
             required
           />
         </div>
@@ -75,6 +81,8 @@ const Insertion = () => {
             id="image"
             value={image}
             onChange={(e) => setImage(e.target.value)}
+            onInvalid={(e) => e.target.setCustomValidity('Por favor, insira a URL da imagem')}
+            onInput={(e) => e.target.setCustomValidity('')}
             required
           />
         </div>
@@ -85,6 +93,9 @@ const Insertion = () => {
             id="description"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
+            onInvalid={(e) => e.target.setCustomValidity('Por favor, insira a descrição')}
+            onInput={(e) => e.target.setCustomValidity('')}
+           
             required
           />
         </div>

@@ -26,7 +26,6 @@ const AppConteudo = () => {
 
   return (
     <div className="App">
-      
       {location.pathname !== '/login' && (location.pathname === '/Inicial' || location.pathname === '/Insertion') && <Navbar />}
         <div className="container">
           <Routes>

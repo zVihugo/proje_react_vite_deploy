@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { login } from "../../services/authServices";
 import {Navigate} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,6 +11,7 @@ const Login = () => {
   //Mostrar para o professor
   // const [redirect, setRedirect] = useState(false);
   const [error, setError] = useState('');
+ 
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -20,6 +21,7 @@ const Login = () => {
       console.log(data);
 
       if (data.succes) {
+        
         window.location.href = '/Inicial';
       } else {
         setError('Usuário não encontrado, verifique novamente!!!');
@@ -41,6 +43,8 @@ const Login = () => {
             id="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            onInvalid={(e) => e.target.setCustomValidity('Por favor, insira o nome de usuário')}
+            onInput={(e) => e.target.setCustomValidity('')}
             placeholder="Insira o nome de usuário"
             required
           />
@@ -53,6 +57,8 @@ const Login = () => {
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            onInvalid={(e) => e.target.setCustomValidity('Por favor, insira o nome de usuário')}
+            onInput={(e) => e.target.setCustomValidity('')}
             placeholder="*******"
             required
           />
