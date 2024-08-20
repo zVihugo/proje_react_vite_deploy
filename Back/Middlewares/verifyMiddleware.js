@@ -18,6 +18,13 @@ const validarLogin = [
     }
   ];
   
-  module.exports = {
+
+const validarInserir = [
+    body('titulo').isString().notEmpty().withMessage('O título é obrigatório'),
+    body('conteudo').isString().notEmpty().withMessage('O conteúdo é obrigatório'),
+    
+]
+
+module.exports = {
     validarLogin
-  };
+}

@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const https = require('https');
 const bcrypt = require('bcrypt');
 const install = require("./Routes/install");
 const connectDB = require('./helpers/banco'); 
@@ -14,6 +15,7 @@ const app = express();
 const dotenv = require("dotenv");
 const {validarLogin} = require('./Middlewares/verifyMiddleware');
 const helmet = require('helmet');
+const fs = require('fs');
 
 
 
@@ -24,6 +26,12 @@ const secret = process.env.JWT_SECRET;
 
 
 const client = redis.createClient();
+
+const chavePrivada = fs.readFileSync("./certificado/key.pem", "utf8");
+const certificado = fs.readFileSync("./certificado/cert.pem", "utf8");
+const credenciais = {key: chavePrivada, cert: certificado};
+
+
 client.on('error', (err) => console.log('Redis Client errooooooooo', err));
 
 connectDB();
@@ -84,21 +92,29 @@ app.get("/api/postagens", async (req, res) => {
     }
 });
 
-app.get("/api/postagens/:titulo", async(req, res)=> {
-    const {titulo} = req.params;
+app.get("/api/postagens/:titulo", async (req, res) => {
+    const { titulo } = req.params;
    
-    try{
+    try {
+        
+        const postCache = await client.get(`postagem:${titulo}`);
+        if (postCache) {
+            return res.status(200).json(JSON.parse(postCache));
+        }
+
         const post = await searchPost(titulo);
         console.log(post);
-        if(post){
+        if (post) {
+        
+            await client.set(`postagem:${titulo}`, JSON.stringify(post), { EX: 20 });
             res.status(200).json(post);
-        }else{
+        } else {
             res.status(404).json({
                 success: false,
                 message: "Postagem não encontrada"
-        });
-    }
-    }catch(e){
+            });
+        }
+    } catch (e) {
         res.status(500).json({
             success: false,
             message: "Erro ao buscar postagem"
@@ -112,7 +128,7 @@ app.post("/api/postagens", authMiddleware, async (req, res) => {
         const post = await addPost(titulo, imagem, conteudo);
 
         const posts = await getPosts();
-        await client.set("postagens", JSON.stringify(posts), { EX: 20 });
+        await client.set("postagens", JSON.stringify(posts), { EX: 50 });
 
         res.status(200).json(post);
     } catch (e) {
@@ -123,7 +139,8 @@ app.post("/api/postagens", authMiddleware, async (req, res) => {
     }
 });
 
+const httpsServer = https.createServer(credenciais, app);
 
-app.listen(port, () => {
+httpsServer.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
