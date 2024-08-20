@@ -57,7 +57,7 @@ app.post('/api/login', validarLogin, async (req, res) => {
           const isMatch = await bcrypt.compare(password, existingUser.password);
           if (isMatch) {
               const token =  jwt.sign({ username: existingUser.username }, secret, { expiresIn: '1h' });
-              console.log(token);
+              
               res.status(200).json({succes: true, message: 'Login bem-sucedido', user: existingUser, token: token});
           } else {
               res.status(401).json({ succes: false, message: 'Senha incorreta' });
@@ -140,6 +140,10 @@ app.post("/api/postagens", authMiddleware, async (req, res) => {
 });
 
 const httpsServer = https.createServer(credenciais, app);
+
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`);
+// })
 
 httpsServer.listen(port, () => {
     console.log(`Server is running on port ${port}`);

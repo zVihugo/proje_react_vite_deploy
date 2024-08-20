@@ -6,8 +6,6 @@ dotenv.config({ path: "./.env" });
 const username = process.env.DB_USER;
 const password = process.env.DB_PASS;
 
-console.log(username);
-console.log(password);
 
 const connectDB = async () => {
   try {

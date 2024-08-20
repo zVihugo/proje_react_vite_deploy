@@ -597,3 +597,8 @@
 2024-08-20T20:49:15.643Z - OPTIONS /api/login - ::1
 2024-08-20T20:49:15.649Z - POST /api/login - ::1
 2024-08-20T20:49:16.044Z - GET /api/postagens - ::1
+2024-08-20T21:41:33.747Z - GET / - ::1
+2024-08-20T21:41:33.760Z - ERROR 404 - GET / - ::1
+2024-08-20T21:43:05.577Z - OPTIONS /api/login - ::1
+2024-08-20T21:43:05.580Z - POST /api/login - ::1
+2024-08-20T21:43:05.937Z - GET /api/postagens - ::1
