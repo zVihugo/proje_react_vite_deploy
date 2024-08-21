@@ -7,13 +7,16 @@ export const login = async (username, password) => {
       username,
       password,
     });
-
     const token = response.data.token;
     console.log(token);
     localStorage.setItem('token', token);
     return response.data;
   } catch (err) {
-    throw new Error('Erro ao fazer login, verifique novamente as credenciais fornecidas');
+    if (err.response && err.response.status === 429) {
+      throw new Error('Muitas tentativas de login. Tente novamente mais tarde.');
+    } else {
+      throw new Error('Erro ao fazer login, verifique novamente as credenciais fornecidas');
+    }
   }
 };
 

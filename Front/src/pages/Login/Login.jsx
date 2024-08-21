@@ -19,15 +19,15 @@ const Login = () => {
     try {
       const data = await login(username, password);
       console.log(data);
-
-      if (data.succes) {
-        
+      
+      if (data.success) {
         window.location.href = '/Inicial';
       } else {
         setError('Usuário não encontrado, verifique novamente!!!');
       }
     } catch (err) {
       setError(err.message);
+      console.log(err);
     }
   };
 
