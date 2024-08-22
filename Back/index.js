@@ -155,7 +155,7 @@ app.get("/api/postagens/:titulo", validarTitulo, authMiddleware, async (req, res
   }
 });
 
-app.post("/api/postagens", authMiddleware, async (req, res) => {
+app.post("/api/postagens", authMiddleware, validarPost, async (req, res) => {
   const { titulo, imagem, conteudo } = req.body;
   try {
     const post = await addPost(titulo, imagem, conteudo);

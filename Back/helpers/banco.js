@@ -14,9 +14,8 @@ const connectDB = async () => {
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        maxPoolSize: 2,
+        maxPoolSize: 5,
         socketTimeoutMS: 45000,
-        
       }
     );
     console.log("Conectado ao banco de dados");
