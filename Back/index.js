@@ -124,6 +124,25 @@ app.post("/api/login",
     }
   );
 
+app.get("/api/postagens", async (req, res) => {
+    try {
+        const postagensCache = await client.get("postagens");
+        if (postagensCache) {
+            return res.status(200).json(JSON.parse(postagensCache));
+        }
+        const posts = await getPosts();
+
+
+        await client.set("postagens", JSON.stringify(posts), { EX: 20 });
+
+        res.status(200).json(posts);
+    } catch (e) {
+        res.status(500).json({
+            success: false,
+            message: "Erro ao buscar postagens"
+        });
+    }
+}); 
 
 
 app.get("/api/postagens/:titulo", validarTitulo, authMiddleware, async (req, res) => {
