@@ -4,7 +4,7 @@ import styles from "./Insertion.module.css";
 import {Navigate} from 'react-router-dom';
 import axios from 'axios';
 import { API_URL } from "../../config/config";
-import {getToken} from "../../services/authServices";
+import {getToken, clearToken} from "../../services/authServices";
 
 
 const Insertion = () => {
@@ -33,7 +33,7 @@ const Insertion = () => {
         conteudo: description
       }, {
         headers: {
-          'Authorization': `Bearer ${token}` 
+          'Authorization':`Bearer ${token}` 
         }
       });
 

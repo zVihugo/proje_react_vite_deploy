@@ -12,10 +12,14 @@ const compression = require("compression");
 const authMiddleware = require("./Middlewares/authMiddleware");
 const logMiddleware = require("./Middlewares/logMiddleware");
 const app = express();
-const { body, validationResult} = require('express-validator');
+const { body, validationResult } = require("express-validator");
 const xss = require("xss-clean");
 const dotenv = require("dotenv");
-const { validarLogin, validarTitulo, validarPost } = require("./Middlewares/verifyMiddleware");
+const {
+  validarLogin,
+  validarTitulo,
+  validarPost,
+} = require("./Middlewares/verifyMiddleware");
 const helmet = require("helmet");
 const fs = require("fs");
 const winston = require("winston");
@@ -48,14 +52,12 @@ const login = winston.createLogger({
 });
 
 const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000,
-    max: 50,
-    message: "Vai com calma",
-
-})
+  windowMs: 15 * 60 * 1000,
+  max: 50,
+  message: "Vai com calma",
+});
 
 client.on("error", (err) => console.log("Redis Client errooooooooo", err));
-
 
 connectDB();
 client.connect();
@@ -73,89 +75,112 @@ app.get("/api", (req, res) => {
   res.send("Hello World");
 });
 
-app.post("/api/login", 
-    [
-      body('username').trim().escape(),
-      body('password').trim().escape() 
-    ],
-    validarLogin, 
-    async (req, res) => {
-      const errors = validationResult(req);
-      if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-      }
-  
-      const { username, password } = req.body;
-      console.log(username, password);
-  
-      try {
-        await rateLimiter.consume(req.ip);
-        login.info(`Tentativa de login do usuário ${username}`);
-        const existingUser = await User.findOne({ username });
-        if (existingUser) {
-          const isMatch = await bcrypt.compare(password, existingUser.password);
-          if (isMatch) {
-            const token = jwt.sign({ username: existingUser.username }, secret, {
-              expiresIn: "1h",
-            });
-            res.status(200).json({
-              success: true,
-              message: "Login bem-sucedido",
-              token
-            });
-          } else {
-            res.status(401).json({
-              success: false,
-              message: "Credenciais inválidas",
-            });
-          }
+app.post(
+  "/api/login",
+  [body("username").trim().escape(), body("password").trim().escape()],
+  validarLogin,
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    const { username, password } = req.body;
+    console.log(username, password);
+
+    try {
+      await rateLimiter.consume(req.ip);
+      login.info(`Tentativa de login do usuário ${username}`);
+      const existingUser = await User.findOne({ username });
+      if (existingUser) {
+        const isMatch = await bcrypt.compare(password, existingUser.password);
+        if (isMatch) {
+          const token = jwt.sign({ username: existingUser.username }, secret, {
+            expiresIn: "1h",
+          });
+          console.log("Seu token:" + token);
+          res.status(200).json({
+            success: true,
+            message: "Login bem-sucedido",
+            token,
+          });
         } else {
           res.status(401).json({
             success: false,
-            message: "Usuário não encontrado",
+            message: "Credenciais inválidas",
           });
         }
-      } catch (e) {
-        res.status(500).json({
+      } else {
+        res.status(401).json({
           success: false,
-          message: "Erro ao processar login",
+          message: "Usuário não encontrado",
         });
       }
-    }
-  );
-
-
-
-app.get("/api/postagens/:titulo", validarTitulo, authMiddleware, async (req, res) => {
-  const { titulo } = req.params;
-
-  try {
-    const postCache = await client.get(`postagem:${titulo}`);
-    login.info(`Busca pela postagem ${titulo}`);
-    if (postCache) {
-      return res.status(200).json(JSON.parse(postCache));
-    }
-
-    const post = await searchPost(titulo);
-    console.log(post);
-    if (post) {
-      await client.set(`postagem:${titulo}`, JSON.stringify(post), { EX: 20 });
-      res.status(200).json(post);
-    } else {
-      res.status(404).json({
+    } catch (e) {
+      res.status(500).json({
         success: false,
-        message: "Postagem não encontrada",
+        message: "Erro ao processar login",
       });
     }
+  }
+);
+
+app.get("/api/postagens", async (req, res) => {
+  try {
+    const postagensCache = await client.get("postagens");
+    if (postagensCache) {
+      return res.status(200).json(JSON.parse(postagensCache));
+    }
+    const posts = await getPosts();
+
+    await client.set("postagens", JSON.stringify(posts), { EX: 20 });
+
+    res.status(200).json(posts);
   } catch (e) {
     res.status(500).json({
       success: false,
-      message: "Erro ao buscar postagem",
+      message: "Erro ao buscar postagens",
     });
   }
 });
 
-app.post("/api/postagens", authMiddleware, validarPost, async (req, res) => {
+app.get(
+  "/api/postagens/:titulo",
+  validarTitulo,
+  
+  async (req, res) => {
+    const { titulo } = req.params;
+
+    try {
+      const postCache = await client.get(`postagem:${titulo}`);
+      login.info(`Busca pela postagem ${titulo}`);
+      if (postCache) {
+        return res.status(200).json(JSON.parse(postCache));
+      }
+
+      const post = await searchPost(titulo);
+      console.log(post);
+      if (post) {
+        await client.set(`postagem:${titulo}`, JSON.stringify(post), {
+          EX: 20,
+        });
+        res.status(200).json(post);
+      } else {
+        res.status(404).json({
+          success: false,
+          message: "Postagem não encontrada",
+        });
+      }
+    } catch (e) {
+      res.status(500).json({
+        success: false,
+        message: "Erro ao buscar postagem",
+      });
+    }
+  }
+);
+
+app.post("/api/postagens",authMiddleware, validarPost, async (req, res) => {
   const { titulo, imagem, conteudo } = req.body;
   try {
     const post = await addPost(titulo, imagem, conteudo);
