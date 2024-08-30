@@ -1,0 +1,17 @@
+.sugestoes {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .sugestoes .sugestao {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sugestoes .sugestao:hover {
+    background-color: #afafaf;
+  }

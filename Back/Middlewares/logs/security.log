@@ -1,0 +1,1378 @@
+2024-08-15T23:36:23.470Z - GET /api/postagens
+2024-08-15T23:36:27.112Z - GET /api/postagens
+2024-08-15T23:36:49.440Z - GET /api/postagens - ::1
+2024-08-15T23:36:54.776Z - OPTIONS /api/postagens - ::1
+2024-08-15T23:36:54.780Z - POST /api/postagens - ::1
+2024-08-15T23:37:00.096Z - OPTIONS /api/login - ::1
+2024-08-15T23:37:00.099Z - POST /api/login - ::1
+2024-08-15T23:37:00.602Z - GET /api/postagens - ::1
+2024-08-15T23:37:03.294Z - GET /api/postagens - ::1
+2024-08-15T23:39:59.173Z - GET /api/postagens - ::1
+2024-08-15T23:42:04.579Z - GET /api/postagens - ::1
+2024-08-15T23:42:05.299Z - GET /api/postagens - ::1
+2024-08-15T23:42:13.452Z - GET /api/postagens - ::1
+2024-08-15T23:56:55.591Z - OPTIONS /api/login - ::1
+2024-08-15T23:56:55.596Z - POST /api/login - ::1
+2024-08-15T23:57:07.712Z - OPTIONS /api/login - ::1
+2024-08-15T23:57:07.713Z - POST /api/login - ::1
+2024-08-15T23:57:07.875Z - POST /api/login - ::1
+2024-08-15T23:57:11.895Z - POST /api/login - ::1
+2024-08-15T23:57:12.050Z - POST /api/login - ::1
+2024-08-15T23:57:22.618Z - OPTIONS /api/login - ::1
+2024-08-15T23:57:22.619Z - POST /api/login - ::1
+2024-08-15T23:57:22.930Z - GET /api/postagens - ::1
+2024-08-15T23:58:15.467Z - OPTIONS /api/login - ::1
+2024-08-15T23:58:15.471Z - POST /api/login - ::1
+2024-08-15T23:58:15.507Z - ERROR 404 - POST /api/login - ::1
+2024-08-15T23:58:21.104Z - OPTIONS /api/login - ::1
+2024-08-15T23:58:21.106Z - POST /api/login - ::1
+2024-08-15T23:58:21.354Z - GET /api/postagens - ::1
+2024-08-16T00:00:19.754Z - OPTIONS /api/login - ::1
+2024-08-16T00:00:19.756Z - POST /api/login - ::1
+2024-08-16T00:00:20.033Z - GET /api/postagens - ::1
+2024-08-16T00:00:22.821Z - GET /api/postagens - ::1
+2024-08-16T00:00:24.201Z - GET /api/postagens/asd - ::1
+2024-08-16T00:00:32.482Z - GET /api/postagens/Goku - ::1
+2024-08-17T18:05:12.892Z - OPTIONS /api/login - ::1
+2024-08-17T18:05:12.899Z - POST /api/login - ::1
+2024-08-17T18:05:13.437Z - GET /api/postagens - ::1
+2024-08-17T18:05:28.645Z - GET /api/postagens/Goku - ::1
+2024-08-17T18:12:18.484Z - GET /api/postagens - ::1
+2024-08-17T18:12:20.287Z - GET /api/postagens - ::1
+2024-08-17T18:12:20.835Z - GET /api/postagens - ::1
+2024-08-17T18:12:21.016Z - GET /api/postagens - ::1
+2024-08-17T18:12:21.186Z - GET /api/postagens - ::1
+2024-08-17T18:12:21.338Z - GET /api/postagens - ::1
+2024-08-17T18:12:21.521Z - GET /api/postagens - ::1
+2024-08-17T18:12:21.688Z - GET /api/postagens - ::1
+2024-08-17T18:12:21.845Z - GET /api/postagens - ::1
+2024-08-17T18:12:22.006Z - GET /api/postagens - ::1
+2024-08-17T18:12:22.172Z - GET /api/postagens - ::1
+2024-08-17T18:12:22.327Z - GET /api/postagens - ::1
+2024-08-17T18:12:22.473Z - GET /api/postagens - ::1
+2024-08-17T18:12:22.618Z - GET /api/postagens - ::1
+2024-08-17T18:12:22.788Z - GET /api/postagens - ::1
+2024-08-17T18:12:22.939Z - GET /api/postagens - ::1
+2024-08-17T18:12:23.085Z - GET /api/postagens - ::1
+2024-08-17T18:12:23.237Z - GET /api/postagens - ::1
+2024-08-17T18:12:23.396Z - GET /api/postagens - ::1
+2024-08-17T18:12:23.554Z - GET /api/postagens - ::1
+2024-08-17T18:12:40.936Z - GET /api/postagens - ::1
+2024-08-17T18:12:41.971Z - GET /api/postagens - ::1
+2024-08-17T18:12:42.749Z - GET /api/postagens - ::1
+2024-08-17T18:12:43.236Z - GET /api/postagens - ::1
+2024-08-17T19:35:35.677Z - OPTIONS /api/login - ::1
+2024-08-17T19:35:35.681Z - POST /api/login - ::1
+2024-08-17T19:35:36.082Z - GET /api/postagens - ::1
+2024-08-17T19:36:17.394Z - GET /api/postagens - ::1
+2024-08-17T19:36:38.643Z - GET /api/postagens - ::1
+2024-08-17T19:36:53.070Z - GET /api/postagens - ::1
+2024-08-17T19:37:36.241Z - GET /api/postagens - ::1
+2024-08-17T19:37:44.205Z - GET /api/postagens - ::1
+2024-08-17T19:37:45.329Z - GET /api/postagens - ::1
+2024-08-17T19:38:06.708Z - GET /api/postagens - ::1
+2024-08-17T19:38:07.912Z - GET /api/postagens - ::1
+2024-08-17T19:38:09.042Z - GET /api/postagens - ::1
+2024-08-17T19:38:09.940Z - GET /api/postagens - ::1
+2024-08-17T19:38:10.901Z - GET /api/postagens - ::1
+2024-08-17T19:38:11.811Z - GET /api/postagens - ::1
+2024-08-17T19:38:12.718Z - GET /api/postagens - ::1
+2024-08-17T19:38:17.173Z - GET /api/postagens/Goku - ::1
+2024-08-17T19:39:15.466Z - OPTIONS /api/postagens - ::1
+2024-08-17T19:39:15.470Z - POST /api/postagens - ::1
+2024-08-17T19:39:17.914Z - GET /api/postagens - ::1
+2024-08-17T19:39:19.652Z - GET /api/postagens/testeeee - ::1
+2024-08-17T19:39:21.658Z - GET /api/postagens - ::1
+2024-08-17T19:43:06.386Z - GET /api/postagens - ::1
+2024-08-17T19:43:14.474Z - GET /api/postagens - ::1
+2024-08-17T20:20:50.466Z - GET /api/postagens - ::1
+2024-08-17T20:20:50.993Z - GET /api/postagens - ::1
+2024-08-18T00:31:00.743Z - OPTIONS /api/login - ::1
+2024-08-18T00:31:00.747Z - POST /api/login - ::1
+2024-08-18T00:31:01.112Z - GET /api/postagens - ::1
+2024-08-18T00:31:04.603Z - GET /api/postagens/Goku - ::1
+2024-08-18T00:31:18.428Z - OPTIONS /api/login - ::1
+2024-08-18T00:31:18.430Z - POST /api/login - ::1
+2024-08-18T00:31:18.749Z - GET /api/postagens - ::1
+2024-08-18T00:31:57.822Z - OPTIONS /api/postagens - ::1
+2024-08-18T00:31:57.825Z - POST /api/postagens - ::1
+2024-08-18T00:31:59.333Z - GET /api/postagens - ::1
+2024-08-18T00:32:01.065Z - GET /api/postagens/Caminhao%20113 - ::1
+2024-08-18T00:32:02.897Z - GET /api/postagens - ::1
+2024-08-18T00:32:03.434Z - GET /api/postagens - ::1
+2024-08-18T00:32:03.735Z - GET /api/postagens - ::1
+2024-08-18T00:32:03.926Z - GET /api/postagens - ::1
+2024-08-18T00:32:04.105Z - GET /api/postagens - ::1
+2024-08-18T00:32:04.250Z - GET /api/postagens - ::1
+2024-08-18T00:32:04.427Z - GET /api/postagens - ::1
+2024-08-18T00:32:04.699Z - GET /api/postagens - ::1
+2024-08-18T00:32:06.524Z - GET /api/postagens/Caminhao%20113 - ::1
+2024-08-18T00:33:33.983Z - OPTIONS /api/login - ::1
+2024-08-18T00:33:33.985Z - POST /api/login - ::1
+2024-08-18T00:33:34.006Z - ERROR 404 - POST /api/login - ::1
+2024-08-18T00:33:45.968Z - GET /api/postagens/sad - ::1
+2024-08-18T00:33:58.519Z - GET /api/postagens/asdsadsa - ::1
+2024-08-18T00:35:12.310Z - GET /api/postagens/asdasdad - ::1
+2024-08-18T00:35:38.116Z - GET /api/postagens/sadsa - ::1
+2024-08-18T00:35:42.791Z - GET /api/postagens/sadsadsasadsa - ::1
+2024-08-18T00:36:58.575Z - GET /api/postagens/aaaaaaaa - ::1
+2024-08-18T00:37:05.453Z - GET /api/postagens - ::1
+2024-08-18T00:37:05.916Z - GET /api/postagens - ::1
+2024-08-18T00:37:08.521Z - GET /api/postagens - ::1
+2024-08-18T00:37:08.698Z - GET /api/postagens - ::1
+2024-08-18T00:37:08.865Z - GET /api/postagens - ::1
+2024-08-18T00:37:09.032Z - GET /api/postagens - ::1
+2024-08-18T00:37:09.199Z - GET /api/postagens - ::1
+2024-08-18T00:37:09.419Z - GET /api/postagens - ::1
+2024-08-18T00:37:09.564Z - GET /api/postagens - ::1
+2024-08-18T00:37:09.728Z - GET /api/postagens - ::1
+2024-08-18T00:37:24.613Z - GET /api/postagens/aaaaaaaaaaaaaaaaaa - ::1
+2024-08-18T00:42:00.704Z - GET /api/postagens - ::1
+2024-08-18T00:42:01.285Z - GET /api/postagens - ::1
+2024-08-18T00:42:03.789Z - GET /api/postagens - ::1
+2024-08-18T00:42:05.207Z - GET /api/postagens - ::1
+2024-08-18T00:42:39.053Z - GET /api/postagens/goku - ::1
+2024-08-18T00:42:41.454Z - GET /api/postagens/Goku - ::1
+2024-08-18T00:43:15.469Z - GET /api/postagens/Goku - ::1
+2024-08-18T00:47:28.966Z - GET /api/postagens - ::1
+2024-08-18T00:47:29.770Z - GET /api/postagens - ::1
+2024-08-18T00:51:43.241Z - OPTIONS /api/postagens - ::1
+2024-08-18T00:51:43.247Z - POST /api/postagens - ::1
+2024-08-18T00:51:43.267Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-18T00:51:51.346Z - OPTIONS /api/login - ::1
+2024-08-18T00:51:51.351Z - POST /api/login - ::1
+2024-08-18T00:51:51.682Z - GET /api/postagens - ::1
+2024-08-18T00:51:55.812Z - OPTIONS /api/postagens - ::1
+2024-08-18T00:51:55.815Z - POST /api/postagens - ::1
+2024-08-18T00:51:55.820Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-18T00:52:28.523Z - GET /api/postagens - ::1
+2024-08-18T00:52:32.982Z - OPTIONS /api/login - ::1
+2024-08-18T00:52:32.984Z - POST /api/login - ::1
+2024-08-18T00:52:33.015Z - ERROR 404 - POST /api/login - ::1
+2024-08-18T00:52:36.715Z - POST /api/login - ::1
+2024-08-18T00:52:36.807Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:52:39.534Z - OPTIONS /api/login - ::1
+2024-08-18T00:52:39.536Z - POST /api/login - ::1
+2024-08-18T00:52:39.625Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:52:43.209Z - POST /api/login - ::1
+2024-08-18T00:52:43.320Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:52:47.627Z - OPTIONS /api/login - ::1
+2024-08-18T00:52:47.630Z - POST /api/login - ::1
+2024-08-18T00:52:47.715Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:52:49.148Z - POST /api/login - ::1
+2024-08-18T00:52:49.237Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:52:49.844Z - POST /api/login - ::1
+2024-08-18T00:52:49.930Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:53:09.879Z - OPTIONS /api/login - ::1
+2024-08-18T00:53:09.885Z - POST /api/login - ::1
+2024-08-18T00:53:09.994Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:53:40.506Z - OPTIONS /api/login - ::1
+2024-08-18T00:53:40.513Z - POST /api/login - ::1
+2024-08-18T00:53:40.623Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:53:52.231Z - OPTIONS /api/login - ::1
+2024-08-18T00:53:52.233Z - POST /api/login - ::1
+2024-08-18T00:53:52.320Z - ERROR 500 - POST /api/login - ::1
+2024-08-18T00:54:25.397Z - OPTIONS /api/login - ::1
+2024-08-18T00:54:25.404Z - POST /api/login - ::1
+2024-08-18T00:54:25.763Z - GET /api/postagens - ::1
+2024-08-18T00:54:37.305Z - OPTIONS /api/postagens - ::1
+2024-08-18T00:54:37.308Z - POST /api/postagens - ::1
+2024-08-18T00:59:09.119Z - OPTIONS /api/login - ::1
+2024-08-18T00:59:09.121Z - POST /api/login - ::1
+2024-08-18T00:59:09.432Z - GET /api/postagens - ::1
+2024-08-18T00:59:15.005Z - GET /api/postagens - ::1
+2024-08-18T00:59:15.207Z - GET /api/postagens - ::1
+2024-08-18T00:59:15.530Z - GET /api/postagens - ::1
+2024-08-18T00:59:59.208Z - OPTIONS /api/login - ::1
+2024-08-18T00:59:59.210Z - POST /api/login - ::1
+2024-08-18T00:59:59.228Z - ERROR 404 - POST /api/login - ::1
+2024-08-18T01:00:14.738Z - OPTIONS /api/login - ::1
+2024-08-18T01:00:14.740Z - POST /api/login - ::1
+2024-08-18T01:00:15.055Z - GET /api/postagens - ::1
+2024-08-18T01:01:31.503Z - GET /api/postagens - ::1
+2024-08-18T01:01:49.755Z - GET /api/postagens - ::1
+2024-08-18T01:02:26.727Z - OPTIONS /api/login - ::1
+2024-08-18T01:02:26.729Z - POST /api/login - ::1
+2024-08-18T01:02:26.996Z - GET /api/postagens - ::1
+2024-08-18T01:02:43.376Z - GET /api/postagens - ::1
+2024-08-18T01:03:11.721Z - GET /api/postagens - ::1
+2024-08-18T01:03:22.313Z - GET /api/postagens - ::1
+2024-08-18T01:03:27.145Z - GET /api/postagens - ::1
+2024-08-18T01:04:25.203Z - GET /api/postagens - ::1
+2024-08-18T01:04:33.628Z - GET /api/postagens/goku - ::1
+2024-08-18T01:10:15.173Z - GET /api/postagens - ::1
+2024-08-18T01:10:17.143Z - GET /api/postagens/Goku - ::1
+2024-08-18T01:10:26.025Z - GET /api/postagens/Vegeta - ::1
+2024-08-18T01:10:59.355Z - GET /api/postagens - ::1
+2024-08-18T01:11:10.796Z - GET /api/postagens/Asdsa - ::1
+2024-08-18T01:11:12.497Z - GET /api/postagens/asdsa - ::1
+2024-08-18T01:11:38.702Z - OPTIONS /api/postagens - ::1
+2024-08-18T01:11:38.704Z - POST /api/postagens - ::1
+2024-08-18T01:14:12.363Z - OPTIONS /api/postagens - ::1
+2024-08-18T01:14:12.365Z - POST /api/postagens - ::1
+2024-08-18T01:14:13.618Z - GET /api/postagens - ::1
+2024-08-18T01:14:42.250Z - GET /api/postagens - ::1
+2024-08-18T01:14:51.427Z - OPTIONS /api/postagens - ::1
+2024-08-18T01:14:51.429Z - POST /api/postagens - ::1
+2024-08-18T01:14:52.858Z - GET /api/postagens - ::1
+2024-08-18T01:15:02.654Z - GET /api/postagens - ::1
+2024-08-18T01:15:03.831Z - GET /api/postagens/Banana - ::1
+2024-08-18T01:15:13.136Z - OPTIONS /api/login - ::1
+2024-08-18T01:15:13.138Z - POST /api/login - ::1
+2024-08-18T01:15:13.452Z - GET /api/postagens - ::1
+2024-08-18T01:15:15.340Z - GET /api/postagens/Banana - ::1
+2024-08-18T01:15:18.393Z - GET /api/postagens - ::1
+2024-08-18T01:15:18.688Z - GET /api/postagens - ::1
+2024-08-18T01:15:18.970Z - GET /api/postagens - ::1
+2024-08-18T01:16:07.922Z - GET /api/postagens - ::1
+2024-08-18T01:17:13.389Z - GET /api/postagens - ::1
+2024-08-18T01:20:49.996Z - GET /api/postagens - ::1
+2024-08-18T01:29:01.128Z - GET /api/postagens - ::1
+2024-08-18T01:30:41.623Z - GET /api/postagens - ::1
+2024-08-18T01:30:49.085Z - GET /api/postagens - ::1
+2024-08-18T01:33:13.827Z - GET /api/postagens - ::1
+2024-08-18T01:33:32.836Z - GET /api/postagens - ::1
+2024-08-18T01:33:47.668Z - GET /api/postagens - ::1
+2024-08-18T01:33:58.569Z - GET /api/postagens - ::1
+2024-08-18T01:35:29.794Z - OPTIONS /api/login - ::1
+2024-08-18T01:35:29.798Z - POST /api/login - ::1
+2024-08-18T01:35:30.500Z - GET /api/postagens - ::1
+2024-08-18T01:35:42.090Z - GET /api/postagens - ::1
+2024-08-18T01:36:03.055Z - OPTIONS /api/login - ::1
+2024-08-18T01:36:03.058Z - POST /api/login - ::1
+2024-08-18T01:36:03.649Z - GET /api/postagens - ::1
+2024-08-18T01:36:10.749Z - OPTIONS /api/postagens - ::1
+2024-08-18T01:36:10.751Z - POST /api/postagens - ::1
+2024-08-18T01:36:12.661Z - GET /api/postagens - ::1
+2024-08-18T02:01:47.617Z - OPTIONS /api/login - ::1
+2024-08-18T02:01:47.620Z - POST /api/login - ::1
+2024-08-18T02:01:49.596Z - POST /api/login - ::1
+2024-08-18T02:02:06.271Z - OPTIONS /api/login - ::1
+2024-08-18T02:02:06.274Z - POST /api/login - ::1
+2024-08-18T02:02:06.899Z - GET /api/postagens - ::1
+2024-08-18T02:02:26.608Z - OPTIONS /api/login - ::1
+2024-08-18T02:02:26.611Z - POST /api/login - ::1
+2024-08-18T02:03:55.079Z - OPTIONS /api/login - ::1
+2024-08-18T02:03:55.083Z - POST /api/login - ::1
+2024-08-18T02:06:19.487Z - OPTIONS /api/login - ::1
+2024-08-18T02:06:19.490Z - POST /api/login - ::1
+2024-08-18T02:07:34.976Z - OPTIONS /api/login - ::1
+2024-08-18T02:07:34.979Z - POST /api/login - ::1
+2024-08-18T02:07:52.402Z - OPTIONS /api/login - ::1
+2024-08-18T02:07:52.404Z - POST /api/login - ::1
+2024-08-18T02:07:53.072Z - GET /api/postagens - ::1
+2024-08-18T02:09:29.288Z - OPTIONS /api/login - ::1
+2024-08-18T02:09:29.291Z - POST /api/login - ::1
+2024-08-18T02:09:29.885Z - GET /api/postagens - ::1
+2024-08-18T02:09:31.799Z - GET /api/postagens - ::1
+2024-08-18T02:09:32.364Z - GET /api/postagens - ::1
+2024-08-18T02:09:32.909Z - GET /api/postagens - ::1
+2024-08-18T02:09:33.454Z - GET /api/postagens - ::1
+2024-08-18T02:09:33.919Z - GET /api/postagens - ::1
+2024-08-18T02:09:34.458Z - GET /api/postagens - ::1
+2024-08-18T02:09:47.657Z - GET /api/postagens - ::1
+2024-08-18T02:14:16.409Z - OPTIONS /api/login - ::1
+2024-08-18T02:14:16.411Z - POST /api/login - ::1
+2024-08-18T02:14:16.709Z - GET /api/postagens - ::1
+2024-08-18T02:36:39.419Z - OPTIONS /api/login - ::1
+2024-08-18T02:36:39.422Z - POST /api/login - ::1
+2024-08-18T02:36:39.505Z - ERROR 401 - POST /api/login - ::1
+2024-08-18T02:36:53.771Z - OPTIONS /api/login - ::1
+2024-08-18T02:36:53.772Z - POST /api/login - ::1
+2024-08-18T02:36:54.413Z - GET /api/postagens - ::1
+2024-08-18T02:36:59.120Z - OPTIONS /api/login - ::1
+2024-08-18T02:36:59.123Z - POST /api/login - ::1
+2024-08-18T02:36:59.728Z - GET /api/postagens - ::1
+2024-08-18T02:37:00.859Z - GET /api/postagens - ::1
+2024-08-18T02:37:03.739Z - GET /api/postagens - ::1
+2024-08-18T23:44:52.679Z - OPTIONS /api/login - ::1
+2024-08-18T23:44:52.684Z - POST /api/login - ::1
+2024-08-18T23:44:53.055Z - GET /api/postagens - ::1
+2024-08-18T23:45:08.098Z - GET /api/postagens - ::1
+2024-08-18T23:45:14.169Z - GET /api/postagens - ::1
+2024-08-18T23:45:15.319Z - GET /api/postagens - ::1
+2024-08-18T23:45:16.335Z - GET /api/postagens - ::1
+2024-08-18T23:45:17.411Z - GET /api/postagens - ::1
+2024-08-18T23:45:53.621Z - GET /api/postagens/Goku - ::1
+2024-08-19T19:51:26.562Z - OPTIONS /api/login - ::1
+2024-08-19T19:51:26.567Z - POST /api/login - ::1
+2024-08-19T19:51:26.942Z - GET /api/postagens - ::1
+2024-08-19T19:51:43.409Z - GET /api/postagens - ::1
+2024-08-19T19:55:49.796Z - OPTIONS /api/login - ::1
+2024-08-19T19:55:49.800Z - POST /api/login - ::1
+2024-08-19T19:55:49.842Z - ERROR 404 - POST /api/login - ::1
+2024-08-19T19:55:53.072Z - POST /api/login - ::1
+2024-08-19T19:55:54.608Z - POST /api/login - ::1
+2024-08-19T19:55:57.313Z - OPTIONS /api/login - ::1
+2024-08-19T19:55:57.316Z - POST /api/login - ::1
+2024-08-19T19:55:58.795Z - POST /api/login - ::1
+2024-08-19T19:56:03.839Z - OPTIONS /api/login - ::1
+2024-08-19T19:56:03.842Z - POST /api/login - ::1
+2024-08-19T19:56:35.761Z - OPTIONS /api/login - ::1
+2024-08-19T19:56:35.765Z - POST /api/login - ::1
+2024-08-19T19:56:36.073Z - GET /api/postagens - ::1
+2024-08-19T19:59:49.050Z - OPTIONS /api/login - ::1
+2024-08-19T19:59:49.055Z - POST /api/login - ::1
+2024-08-19T19:59:49.543Z - GET /api/postagens - ::1
+2024-08-19T20:00:39.431Z - OPTIONS /api/login - ::1
+2024-08-19T20:00:39.435Z - POST /api/login - ::1
+2024-08-19T20:00:39.804Z - GET /api/postagens - ::1
+2024-08-19T20:00:45.068Z - OPTIONS /api/login - ::1
+2024-08-19T20:00:45.072Z - POST /api/login - ::1
+2024-08-19T20:00:45.094Z - ERROR 404 - POST /api/login - ::1
+2024-08-19T20:00:48.187Z - POST /api/login - ::1
+2024-08-19T20:00:48.484Z - GET /api/postagens - ::1
+2024-08-19T20:48:10.789Z - OPTIONS /api/login - ::1
+2024-08-19T20:48:10.794Z - POST /api/login - ::1
+2024-08-19T20:48:11.126Z - GET /api/postagens - ::1
+2024-08-19T20:48:50.938Z - OPTIONS /api/login - ::1
+2024-08-19T20:48:50.941Z - POST /api/login - ::1
+2024-08-19T20:48:51.253Z - GET /api/postagens - ::1
+2024-08-19T20:48:56.129Z - GET /api/postagens - ::1
+2024-08-19T20:48:58.469Z - GET /api/postagens - ::1
+2024-08-19T20:48:59.442Z - GET /api/postagens - ::1
+2024-08-19T20:49:00.895Z - GET /api/postagens - ::1
+2024-08-19T20:49:25.262Z - GET /api/postagens - ::1
+2024-08-19T20:49:32.279Z - OPTIONS /api/login - ::1
+2024-08-19T20:49:32.281Z - POST /api/login - ::1
+2024-08-19T20:49:32.573Z - GET /api/postagens - ::1
+2024-08-19T20:50:22.086Z - GET /api/postagens - ::1
+2024-08-19T20:50:25.065Z - GET /api/postagens - ::1
+2024-08-19T20:50:27.570Z - GET /api/postagens - ::1
+2024-08-19T20:50:30.521Z - GET /api/postagens - ::1
+2024-08-19T20:50:32.020Z - GET /api/postagens - ::1
+2024-08-19T20:51:42.435Z - OPTIONS /api/login - ::1
+2024-08-19T20:51:42.437Z - POST /api/login - ::1
+2024-08-19T20:51:42.766Z - GET /api/postagens - ::1
+2024-08-19T20:51:48.691Z - GET /api/postagens - ::1
+2024-08-19T20:51:52.316Z - GET /api/postagens - ::1
+2024-08-19T20:52:32.852Z - GET /api/postagens - ::1
+2024-08-19T20:54:27.285Z - GET /api/postagens - ::1
+2024-08-19T20:54:28.152Z - GET /api/postagens - ::1
+2024-08-19T20:54:34.315Z - OPTIONS /api/login - ::1
+2024-08-19T20:54:34.317Z - POST /api/login - ::1
+2024-08-19T20:54:34.639Z - GET /api/postagens - ::1
+2024-08-19T20:54:41.770Z - OPTIONS /api/postagens - ::1
+2024-08-19T20:54:41.772Z - POST /api/postagens - ::1
+2024-08-19T20:54:43.322Z - GET /api/postagens - ::1
+2024-08-19T20:54:48.196Z - GET /api/postagens - ::1
+2024-08-19T20:54:51.044Z - GET /api/postagens/Macaco - ::1
+2024-08-19T21:06:25.923Z - GET / - ::ffff:127.0.0.1
+2024-08-19T21:06:25.930Z - ERROR 404 - GET / - ::ffff:127.0.0.1
+2024-08-19T21:06:34.801Z - GET /install - ::ffff:127.0.0.1
+2024-08-19T21:06:34.802Z - ERROR 404 - GET /install - ::ffff:127.0.0.1
+2024-08-19T21:06:50.207Z - GET /favicon.ico - ::ffff:127.0.0.1
+2024-08-19T21:06:50.208Z - ERROR 404 - GET /favicon.ico - ::ffff:127.0.0.1
+2024-08-19T21:07:00.609Z - OPTIONS /api/login - ::1
+2024-08-19T21:07:00.612Z - POST /api/login - ::1
+2024-08-19T21:07:00.931Z - GET /api/postagens - ::1
+2024-08-19T21:07:04.836Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:07:07.024Z - GET /api/postagens/Vegeta - ::1
+2024-08-19T21:07:30.903Z - GET /api/postagens/Vegeta - ::1
+2024-08-19T21:14:19.723Z - OPTIONS /api/login - ::1
+2024-08-19T21:14:19.727Z - POST /api/login - ::1
+2024-08-19T21:14:20.201Z - GET /api/postagens - ::1
+2024-08-19T21:14:49.145Z - OPTIONS /api/postagens - ::1
+2024-08-19T21:14:49.147Z - POST /api/postagens - ::1
+2024-08-19T21:14:50.834Z - GET /api/postagens - ::1
+2024-08-19T21:14:52.769Z - GET /api/postagens/Android%2018 - ::1
+2024-08-19T21:14:59.465Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:15:46.123Z - OPTIONS /api/postagens - ::1
+2024-08-19T21:15:46.126Z - POST /api/postagens - ::1
+2024-08-19T21:15:47.688Z - GET /api/postagens - ::1
+2024-08-19T21:15:49.004Z - GET /api/postagens/Bulma - ::1
+2024-08-19T21:16:15.783Z - GET /api/postagens - ::1
+2024-08-19T21:16:16.387Z - GET /api/postagens - ::1
+2024-08-19T21:16:16.785Z - GET /api/postagens - ::1
+2024-08-19T21:19:12.518Z - GET /api/postagens - ::1
+2024-08-19T21:19:13.093Z - GET /api/postagens - ::1
+2024-08-19T21:19:13.622Z - GET /api/postagens - ::1
+2024-08-19T21:19:14.171Z - GET /api/postagens - ::1
+2024-08-19T21:19:14.662Z - GET /api/postagens - ::1
+2024-08-19T21:19:15.008Z - GET /api/postagens - ::1
+2024-08-19T21:19:15.357Z - GET /api/postagens - ::1
+2024-08-19T21:19:15.952Z - GET /api/postagens - ::1
+2024-08-19T21:19:17.009Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:19.509Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:19.514Z - ERROR 500 - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:21.908Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:21.910Z - ERROR 500 - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:22.474Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:22.476Z - ERROR 500 - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:30.109Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:19:31.572Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:23:31.192Z - OPTIONS /api/login - ::1
+2024-08-19T21:23:31.197Z - POST /api/login - ::1
+2024-08-19T21:23:31.582Z - GET /api/postagens - ::1
+2024-08-19T21:30:10.917Z - OPTIONS /api/login - ::1
+2024-08-19T21:30:10.918Z - POST /api/login - ::1
+2024-08-19T21:30:11.240Z - GET /api/postagens - ::1
+2024-08-19T21:30:20.401Z - GET /api/postagens/Goku - ::1
+2024-08-19T21:30:23.110Z - GET /api/postagens/Vegeta - ::1
+2024-08-19T21:30:27.679Z - GET /api/postagens/Piccolo - ::1
+2024-08-19T21:30:31.410Z - GET /api/postagens/Bulma - ::1
+2024-08-19T21:30:35.414Z - GET /api/postagens/Android%2018 - ::1
+2024-08-19T21:30:38.431Z - GET /api/postagens - ::1
+2024-08-19T21:30:38.957Z - GET /api/postagens - ::1
+2024-08-19T21:30:39.401Z - GET /api/postagens - ::1
+2024-08-19T21:30:39.779Z - GET /api/postagens - ::1
+2024-08-20T00:42:53.325Z - GET / - ::1
+2024-08-20T00:42:53.331Z - ERROR 404 - GET / - ::1
+2024-08-20T00:42:56.885Z - GET / - ::1
+2024-08-20T00:42:56.886Z - ERROR 404 - GET / - ::1
+2024-08-20T01:00:37.368Z - GET / - ::1
+2024-08-20T01:00:37.369Z - ERROR 404 - GET / - ::1
+2024-08-20T01:01:13.834Z - GET / - ::1
+2024-08-20T01:01:13.841Z - ERROR 404 - GET / - ::1
+2024-08-20T01:01:18.818Z - GET / - ::1
+2024-08-20T01:01:18.820Z - ERROR 404 - GET / - ::1
+2024-08-20T01:02:41.751Z - GET / - ::1
+2024-08-20T01:02:41.757Z - ERROR 404 - GET / - ::1
+2024-08-20T01:02:42.356Z - GET / - ::1
+2024-08-20T01:02:42.358Z - ERROR 404 - GET / - ::1
+2024-08-20T01:02:42.513Z - GET / - ::1
+2024-08-20T01:02:42.514Z - ERROR 404 - GET / - ::1
+2024-08-20T01:02:42.675Z - ERROR 404 - GET / - ::1
+2024-08-20T01:02:42.674Z - GET / - ::1
+2024-08-20T01:02:42.820Z - GET / - ::1
+2024-08-20T01:02:42.821Z - ERROR 404 - GET / - ::1
+2024-08-20T01:03:19.506Z - GET / - ::1
+2024-08-20T01:03:19.507Z - ERROR 404 - GET / - ::1
+2024-08-20T01:03:20.029Z - GET / - ::1
+2024-08-20T01:03:20.030Z - ERROR 404 - GET / - ::1
+2024-08-20T01:03:20.188Z - GET / - ::1
+2024-08-20T01:03:20.189Z - ERROR 404 - GET / - ::1
+2024-08-20T01:05:45.389Z - GET / - ::1
+2024-08-20T01:05:45.395Z - ERROR 404 - GET / - ::1
+2024-08-20T01:05:48.117Z - GET / - ::1
+2024-08-20T01:05:48.119Z - ERROR 404 - GET / - ::1
+2024-08-20T01:05:48.271Z - GET / - ::1
+2024-08-20T01:05:48.272Z - ERROR 404 - GET / - ::1
+2024-08-20T01:09:32.649Z - OPTIONS /api/login - ::1
+2024-08-20T01:09:32.654Z - POST /api/login - ::1
+2024-08-20T01:09:33.361Z - GET /api/postagens - ::1
+2024-08-20T01:18:44.615Z - OPTIONS /api/login - ::1
+2024-08-20T01:18:44.620Z - POST /api/login - ::1
+2024-08-20T01:18:45.085Z - GET /api/postagens - ::1
+2024-08-20T01:28:59.454Z - GET / - ::1
+2024-08-20T01:28:59.461Z - ERROR 404 - GET / - ::1
+2024-08-20T01:35:33.311Z - GET / - ::1
+2024-08-20T01:35:33.318Z - ERROR 404 - GET / - ::1
+2024-08-20T01:36:08.284Z - GET / - ::1
+2024-08-20T01:36:08.285Z - ERROR 404 - GET / - ::1
+2024-08-20T01:36:18.846Z - GET /api - ::1
+2024-08-20T01:36:19.069Z - GET /favicon.ico - ::1
+2024-08-20T01:36:19.071Z - ERROR 404 - GET /favicon.ico - ::1
+2024-08-20T20:03:49.916Z - OPTIONS /api/login - ::1
+2024-08-20T20:03:49.923Z - POST /api/login - ::1
+2024-08-20T20:03:50.315Z - GET /api/postagens - ::1
+2024-08-20T20:04:04.618Z - GET /api/postagens - ::1
+2024-08-20T20:04:05.309Z - GET /api/postagens - ::1
+2024-08-20T20:04:34.792Z - GET /api/postagens - ::1
+2024-08-20T20:04:35.153Z - GET /api/postagens - ::1
+2024-08-20T20:05:58.528Z - GET /api/postagens - ::1
+2024-08-20T20:05:59.917Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:06:01.728Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:06:02.292Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:06:02.699Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:06:05.091Z - GET /api/postagens/Vegeta - ::1
+2024-08-20T20:06:07.588Z - GET /api/postagens/Android%2018 - ::1
+2024-08-20T20:06:11.139Z - GET /api/postagens/Bulma - ::1
+2024-08-20T20:07:58.227Z - OPTIONS /api/postagens - ::1
+2024-08-20T20:07:58.232Z - POST /api/postagens - ::1
+2024-08-20T20:07:59.893Z - GET /api/postagens - ::1
+2024-08-20T20:08:02.167Z - GET /api/postagens/Mr.%20satan - ::1
+2024-08-20T20:08:14.016Z - GET /api/postagens - ::1
+2024-08-20T20:08:16.578Z - GET /api/postagens - ::1
+2024-08-20T20:08:20.363Z - GET /api/postagens/Mr.%20satan - ::1
+2024-08-20T20:08:36.278Z - GET /api/postagens - ::1
+2024-08-20T20:08:38.429Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:08:44.018Z - GET /api/postagens/Bulma - ::1
+2024-08-20T20:08:47.106Z - GET /api/postagens - ::1
+2024-08-20T20:08:47.408Z - GET /api/postagens - ::1
+2024-08-20T20:08:54.810Z - GET /api/postagens - ::1
+2024-08-20T20:08:55.287Z - GET /api/postagens - ::1
+2024-08-20T20:09:05.580Z - GET /api/postagens - ::1
+2024-08-20T20:09:05.889Z - GET /api/postagens - ::1
+2024-08-20T20:09:07.618Z - GET /api/postagens/Bulma - ::1
+2024-08-20T20:09:10.709Z - GET /api/postagens/Mr.%20satan - ::1
+2024-08-20T20:09:41.092Z - OPTIONS /api/postagens - ::1
+2024-08-20T20:09:41.097Z - POST /api/postagens - ::1
+2024-08-20T20:09:42.524Z - GET /api/postagens - ::1
+2024-08-20T20:09:42.894Z - GET /api/postagens - ::1
+2024-08-20T20:09:44.940Z - GET /api/postagens/Mr.%20popo - ::1
+2024-08-20T20:15:25.664Z - GET / - ::1
+2024-08-20T20:15:25.672Z - ERROR 404 - GET / - ::1
+2024-08-20T20:16:09.445Z - GET / - ::1
+2024-08-20T20:16:09.446Z - ERROR 404 - GET / - ::1
+2024-08-20T20:16:10.014Z - GET / - ::1
+2024-08-20T20:16:10.015Z - ERROR 404 - GET / - ::1
+2024-08-20T20:16:10.177Z - GET / - ::1
+2024-08-20T20:16:10.178Z - ERROR 404 - GET / - ::1
+2024-08-20T20:16:24.222Z - GET / - ::1
+2024-08-20T20:16:24.230Z - ERROR 404 - GET / - ::1
+2024-08-20T20:17:50.396Z - OPTIONS /api/login - ::1
+2024-08-20T20:17:50.401Z - POST /api/login - ::1
+2024-08-20T20:17:50.736Z - GET /api/postagens - ::1
+2024-08-20T20:18:02.693Z - GET / - ::1
+2024-08-20T20:18:02.696Z - ERROR 404 - GET / - ::1
+2024-08-20T20:18:09.108Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:18:29.826Z - GET /api/postagens - ::1
+2024-08-20T20:18:32.414Z - GET /api/postagens - ::1
+2024-08-20T20:18:36.020Z - GET /api/postagens - ::1
+2024-08-20T20:22:24.853Z - OPTIONS /api/login - ::1
+2024-08-20T20:22:24.855Z - POST /api/login - ::1
+2024-08-20T20:22:25.177Z - GET /api/postagens - ::1
+2024-08-20T20:27:22.015Z - OPTIONS /api/login - ::1
+2024-08-20T20:27:22.017Z - POST /api/login - ::1
+2024-08-20T20:27:36.717Z - OPTIONS /api/login - ::1
+2024-08-20T20:27:36.719Z - POST /api/login - ::1
+2024-08-20T20:27:51.251Z - OPTIONS /api/login - ::1
+2024-08-20T20:27:51.253Z - POST /api/login - ::1
+2024-08-20T20:27:58.107Z - OPTIONS /api/login - ::1
+2024-08-20T20:27:58.109Z - POST /api/login - ::1
+2024-08-20T20:28:14.832Z - GET /api/postagens - ::1
+2024-08-20T20:28:17.550Z - GET /api/postagens - ::1
+2024-08-20T20:28:21.464Z - OPTIONS /api/login - ::1
+2024-08-20T20:28:21.467Z - POST /api/login - ::1
+2024-08-20T20:28:21.770Z - GET /api/postagens - ::1
+2024-08-20T20:28:23.671Z - GET /api/postagens - ::1
+2024-08-20T20:32:25.045Z - OPTIONS /api/login - ::1
+2024-08-20T20:32:25.047Z - POST /api/login - ::1
+2024-08-20T20:32:25.359Z - GET /api/postagens - ::1
+2024-08-20T20:33:16.060Z - OPTIONS /api/login - ::1
+2024-08-20T20:33:16.061Z - POST /api/login - ::1
+2024-08-20T20:33:16.364Z - GET /api/postagens - ::1
+2024-08-20T20:33:38.469Z - OPTIONS /api/login - ::1
+2024-08-20T20:33:38.471Z - POST /api/login - ::1
+2024-08-20T20:33:38.760Z - GET /api/postagens - ::1
+2024-08-20T20:33:50.261Z - GET /api/postagens - ::1
+2024-08-20T20:33:53.728Z - OPTIONS /api/login - ::1
+2024-08-20T20:33:53.730Z - POST /api/login - ::1
+2024-08-20T20:33:54.018Z - GET /api/postagens - ::1
+2024-08-20T20:34:13.029Z - OPTIONS /api/login - ::1
+2024-08-20T20:34:13.031Z - POST /api/login - ::1
+2024-08-20T20:34:26.604Z - OPTIONS /api/login - ::1
+2024-08-20T20:34:26.606Z - POST /api/login - ::1
+2024-08-20T20:34:39.133Z - OPTIONS /api/login - ::1
+2024-08-20T20:34:39.135Z - POST /api/login - ::1
+2024-08-20T20:35:25.055Z - OPTIONS /api/login - ::1
+2024-08-20T20:35:25.057Z - POST /api/login - ::1
+2024-08-20T20:35:33.606Z - GET /api/postagens - ::1
+2024-08-20T20:35:39.788Z - OPTIONS /api/login - ::1
+2024-08-20T20:35:39.790Z - POST /api/login - ::1
+2024-08-20T20:35:40.065Z - GET /api/postagens - ::1
+2024-08-20T20:35:42.279Z - GET /api/postagens - ::1
+2024-08-20T20:35:46.094Z - OPTIONS /api/login - ::1
+2024-08-20T20:35:46.097Z - POST /api/login - ::1
+2024-08-20T20:35:46.362Z - GET /api/postagens - ::1
+2024-08-20T20:35:51.137Z - OPTIONS /api/login - ::1
+2024-08-20T20:35:51.139Z - POST /api/login - ::1
+2024-08-20T20:35:51.427Z - GET /api/postagens - ::1
+2024-08-20T20:35:53.193Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:35:56.235Z - GET /api/postagens/Bulma - ::1
+2024-08-20T20:35:57.986Z - GET /api/postagens - ::1
+2024-08-20T20:35:58.381Z - GET /api/postagens - ::1
+2024-08-20T20:36:03.218Z - OPTIONS /api/login - ::1
+2024-08-20T20:36:03.221Z - POST /api/login - ::1
+2024-08-20T20:36:03.509Z - GET /api/postagens - ::1
+2024-08-20T20:38:18.333Z - OPTIONS /api/login - ::1
+2024-08-20T20:38:18.335Z - POST /api/login - ::1
+2024-08-20T20:38:18.640Z - GET /api/postagens - ::1
+2024-08-20T20:38:20.321Z - GET /api/postagens - ::1
+2024-08-20T20:38:20.839Z - GET /api/postagens - ::1
+2024-08-20T20:38:21.140Z - GET /api/postagens - ::1
+2024-08-20T20:40:15.587Z - GET /api/postagens - ::1
+2024-08-20T20:40:50.651Z - GET /api/postagens - ::1
+2024-08-20T20:40:52.527Z - GET /api/postagens - ::1
+2024-08-20T20:41:01.733Z - GET / - ::1
+2024-08-20T20:41:01.735Z - ERROR 404 - GET / - ::1
+2024-08-20T20:43:31.873Z - OPTIONS /api/login - ::1
+2024-08-20T20:43:31.876Z - POST /api/login - ::1
+2024-08-20T20:43:32.423Z - GET /api/postagens - ::1
+2024-08-20T20:43:34.323Z - GET /api/postagens - ::1
+2024-08-20T20:43:42.586Z - GET /api/postagens - ::1
+2024-08-20T20:43:42.856Z - GET /api/postagens - ::1
+2024-08-20T20:43:45.288Z - GET /api/postagens/Goku - ::1
+2024-08-20T20:49:15.643Z - OPTIONS /api/login - ::1
+2024-08-20T20:49:15.649Z - POST /api/login - ::1
+2024-08-20T20:49:16.044Z - GET /api/postagens - ::1
+2024-08-20T21:41:33.747Z - GET / - ::1
+2024-08-20T21:41:33.760Z - ERROR 404 - GET / - ::1
+2024-08-20T21:43:05.577Z - OPTIONS /api/login - ::1
+2024-08-20T21:43:05.580Z - POST /api/login - ::1
+2024-08-20T21:43:05.937Z - GET /api/postagens - ::1
+2024-08-20T22:11:31.107Z - OPTIONS /api/login - ::1
+2024-08-20T22:11:31.112Z - POST /api/login - ::1
+2024-08-20T22:11:31.473Z - GET /api/postagens - ::1
+2024-08-20T22:11:54.083Z - GET /api/postagens - ::1
+2024-08-20T22:12:17.337Z - GET /api/postagens - ::1
+2024-08-20T22:12:20.263Z - GET /api/postagens - ::1
+2024-08-20T22:15:04.355Z - GET /api/postagens - ::1
+2024-08-20T22:15:39.547Z - GET /api/postagens - ::1
+2024-08-20T22:15:56.354Z - GET /api/postagens - ::1
+2024-08-20T22:16:04.257Z - GET /api/postagens/Goku - ::1
+2024-08-20T22:18:38.708Z - OPTIONS /api/postagens - ::1
+2024-08-20T22:18:38.711Z - POST /api/postagens - ::1
+2024-08-20T22:18:39.634Z - GET /api/postagens - ::1
+2024-08-20T22:18:40.070Z - GET /api/postagens - ::1
+2024-08-20T22:18:43.255Z - GET /api/postagens/Kuririn - ::1
+2024-08-20T22:28:49.716Z - OPTIONS /api/login - ::1
+2024-08-20T22:28:49.721Z - POST /api/login - ::1
+2024-08-20T22:28:50.054Z - GET /api/postagens - ::1
+2024-08-20T22:28:51.600Z - GET /api/postagens - ::1
+2024-08-20T22:28:51.920Z - GET /api/postagens - ::1
+2024-08-20T23:29:02.542Z - OPTIONS /api/login - ::1
+2024-08-20T23:29:02.548Z - POST /api/login - ::1
+2024-08-20T23:29:02.659Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:29:04.349Z - POST /api/login - ::1
+2024-08-20T23:29:04.448Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:29:06.378Z - POST /api/login - ::1
+2024-08-20T23:29:06.467Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:29:07.954Z - OPTIONS /api/login - ::1
+2024-08-20T23:29:07.956Z - POST /api/login - ::1
+2024-08-20T23:29:08.047Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:29:09.292Z - POST /api/login - ::1
+2024-08-20T23:29:09.386Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:29:17.536Z - OPTIONS /api/login - ::1
+2024-08-20T23:29:17.539Z - POST /api/login - ::1
+2024-08-20T23:29:17.630Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:15.337Z - OPTIONS /api/login - ::1
+2024-08-20T23:30:15.343Z - POST /api/login - ::1
+2024-08-20T23:30:15.469Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:17.889Z - POST /api/login - ::1
+2024-08-20T23:30:17.981Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:19.576Z - POST /api/login - ::1
+2024-08-20T23:30:19.670Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:21.086Z - OPTIONS /api/login - ::1
+2024-08-20T23:30:21.089Z - POST /api/login - ::1
+2024-08-20T23:30:21.178Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:23.108Z - POST /api/login - ::1
+2024-08-20T23:30:23.198Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:29.366Z - OPTIONS /api/login - ::1
+2024-08-20T23:30:29.373Z - POST /api/login - ::1
+2024-08-20T23:30:29.491Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:31.137Z - POST /api/login - ::1
+2024-08-20T23:30:31.237Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:32.926Z - POST /api/login - ::1
+2024-08-20T23:30:33.013Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:34.718Z - OPTIONS /api/login - ::1
+2024-08-20T23:30:34.720Z - POST /api/login - ::1
+2024-08-20T23:30:34.813Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:36.377Z - POST /api/login - ::1
+2024-08-20T23:30:36.467Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:37.921Z - POST /api/login - ::1
+2024-08-20T23:30:38.015Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:30:39.843Z - OPTIONS /api/login - ::1
+2024-08-20T23:30:39.846Z - POST /api/login - ::1
+2024-08-20T23:30:39.848Z - ERROR 429 - POST /api/login - ::1
+2024-08-20T23:30:49.527Z - OPTIONS /api/login - ::1
+2024-08-20T23:30:49.530Z - POST /api/login - ::1
+2024-08-20T23:30:49.532Z - ERROR 429 - POST /api/login - ::1
+2024-08-20T23:31:18.640Z - OPTIONS /api/login - ::1
+2024-08-20T23:31:18.643Z - POST /api/login - ::1
+2024-08-20T23:31:18.646Z - ERROR 429 - POST /api/login - ::1
+2024-08-20T23:32:19.851Z - OPTIONS /api/login - ::1
+2024-08-20T23:32:19.853Z - POST /api/login - ::1
+2024-08-20T23:32:19.943Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:32:22.518Z - POST /api/login - ::1
+2024-08-20T23:32:22.605Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:33:27.848Z - OPTIONS /api/login - ::1
+2024-08-20T23:33:27.851Z - POST /api/login - ::1
+2024-08-20T23:33:27.935Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:33:30.945Z - POST /api/login - ::1
+2024-08-20T23:33:31.035Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:33:32.456Z - POST /api/login - ::1
+2024-08-20T23:33:32.548Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:33:34.000Z - OPTIONS /api/login - ::1
+2024-08-20T23:33:34.003Z - POST /api/login - ::1
+2024-08-20T23:33:34.094Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:33:35.546Z - POST /api/login - ::1
+2024-08-20T23:33:35.636Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:33:38.203Z - POST /api/login - ::1
+2024-08-20T23:33:38.292Z - ERROR 401 - POST /api/login - ::1
+2024-08-20T23:33:40.312Z - OPTIONS /api/login - ::1
+2024-08-20T23:33:40.314Z - POST /api/login - ::1
+2024-08-20T23:33:40.317Z - ERROR 429 - POST /api/login - ::1
+2024-08-20T23:39:12.917Z - OPTIONS /api/login - ::1
+2024-08-20T23:39:12.922Z - POST /api/login - ::1
+2024-08-20T23:40:04.161Z - OPTIONS /api/login - ::1
+2024-08-20T23:40:04.163Z - POST /api/login - ::1
+2024-08-20T23:40:20.438Z - OPTIONS /api/login - ::1
+2024-08-20T23:40:20.448Z - POST /api/login - ::1
+2024-08-20T23:41:45.747Z - OPTIONS /api/login - ::1
+2024-08-20T23:41:45.752Z - POST /api/login - ::1
+2024-08-20T23:41:46.393Z - GET /api/postagens - ::1
+2024-08-20T23:42:23.796Z - OPTIONS /api/postagens - ::1
+2024-08-20T23:42:23.798Z - POST /api/postagens - ::1
+2024-08-20T23:42:25.128Z - GET /api/postagens - ::1
+2024-08-20T23:42:25.420Z - GET /api/postagens - ::1
+2024-08-20T23:42:26.815Z - GET /api/postagens/Shenlong - ::1
+2024-08-20T23:44:36.765Z - OPTIONS /api/login - ::1
+2024-08-20T23:44:36.767Z - POST /api/login - ::1
+2024-08-20T23:44:36.855Z - ERROR 401 - POST /api/login - ::1
+2024-08-21T00:20:39.533Z - GET / - ::1
+2024-08-21T00:20:39.546Z - ERROR 404 - GET / - ::1
+2024-08-21T00:22:34.828Z - OPTIONS /api/login - ::1
+2024-08-21T00:22:34.832Z - POST /api/login - ::1
+2024-08-21T00:22:35.178Z - GET /api/postagens - ::1
+2024-08-21T00:22:45.361Z - GET /api/postagens/Goku - ::1
+2024-08-21T00:22:52.594Z - GET /api/postagens/Shenlong - ::1
+2024-08-21T00:23:31.976Z - OPTIONS /api/postagens - ::1
+2024-08-21T00:23:31.979Z - POST /api/postagens - ::1
+2024-08-21T00:23:38.625Z - GET /api/postagens - ::1
+2024-08-21T00:23:43.007Z - GET /api/postagens/Kakaroto - ::1
+2024-08-21T00:42:52.668Z - OPTIONS /api/login - ::1
+2024-08-21T00:42:52.673Z - POST /api/login - ::1
+2024-08-21T00:42:53.160Z - GET /api/postagens - ::1
+2024-08-21T00:43:21.344Z - OPTIONS /api/postagens - ::1
+2024-08-21T00:43:21.346Z - POST /api/postagens - ::1
+2024-08-21T00:43:22.850Z - GET /api/postagens - ::1
+2024-08-21T00:43:24.370Z - GET /api/postagens/Teste - ::1
+2024-08-21T01:01:19.162Z - OPTIONS /api/login - ::1
+2024-08-21T01:01:19.169Z - POST /api/login - ::1
+2024-08-21T01:01:19.531Z - GET /api/postagens - ::1
+2024-08-21T01:01:19.535Z - ERROR 404 - GET /api/postagens - ::1
+2024-08-30T21:10:53.115Z - GET / - ::1
+2024-08-30T21:10:53.122Z - ERROR 404 - GET / - ::1
+2024-08-30T21:11:11.774Z - OPTIONS /api/login - ::1
+2024-08-30T21:11:11.779Z - POST /api/login - ::1
+2024-08-30T21:11:12.489Z - GET /api/postagens - ::1
+2024-08-30T21:11:12.491Z - ERROR 404 - GET /api/postagens - ::1
+2024-08-30T21:11:20.655Z - GET /api/postagens - ::1
+2024-08-30T21:11:20.657Z - ERROR 404 - GET /api/postagens - ::1
+2024-08-30T21:11:25.321Z - OPTIONS /api/login - ::1
+2024-08-30T21:11:25.324Z - POST /api/login - ::1
+2024-08-30T21:11:25.627Z - GET /api/postagens - ::1
+2024-08-30T21:11:25.629Z - ERROR 404 - GET /api/postagens - ::1
+2024-08-30T21:12:32.853Z - OPTIONS /api/login - ::1
+2024-08-30T21:12:32.855Z - POST /api/login - ::1
+2024-08-30T21:12:33.156Z - GET /api/postagens - ::1
+2024-08-30T21:12:33.158Z - ERROR 404 - GET /api/postagens - ::1
+2024-08-30T21:13:13.007Z - GET /api/postagems - ::1
+2024-08-30T21:13:13.009Z - ERROR 404 - GET /api/postagems - ::1
+2024-08-30T21:13:58.745Z - GET /api/postagens - ::1
+2024-08-30T21:13:58.747Z - ERROR 404 - GET /api/postagens - ::1
+2024-08-30T21:14:00.889Z - GET /api/postagens - ::1
+2024-08-30T21:14:00.891Z - ERROR 404 - GET /api/postagens - ::1
+2024-08-30T21:14:07.145Z - GET /api/postagens/* - ::1
+2024-08-30T21:14:07.148Z - ERROR 401 - GET /api/postagens/* - ::1
+2024-08-30T21:14:09.287Z - GET /api/postagens/* - ::1
+2024-08-30T21:14:09.289Z - ERROR 401 - GET /api/postagens/* - ::1
+2024-08-30T21:14:21.286Z - GET /api/postagens/* - ::1
+2024-08-30T21:14:27.295Z - GET /api/postagens/all - ::1
+2024-08-30T21:14:32.332Z - GET /api/postagens/goku - ::1
+2024-08-30T21:14:36.271Z - GET /api/postagens/goku - ::1
+2024-08-30T21:14:38.173Z - GET /api/postagens/goku - ::1
+2024-08-30T21:14:42.188Z - GET /api/postagens/goku - ::1
+2024-08-30T21:14:42.199Z - ERROR 401 - GET /api/postagens/goku - ::1
+2024-08-30T21:22:33.337Z - GET /api/postagens - ::1
+2024-08-30T21:22:41.043Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:22:41.050Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:22:42.457Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:22:42.459Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:22:45.639Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:22:45.641Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:22:47.447Z - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:47.448Z - ERROR 401 - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:48.349Z - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:48.350Z - ERROR 401 - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:48.517Z - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:48.518Z - ERROR 401 - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:49.859Z - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:49.861Z - ERROR 401 - GET /api/postagens/Vegeta - ::1
+2024-08-30T21:22:53.022Z - GET /api/postagens/Veget - ::1
+2024-08-30T21:22:53.024Z - ERROR 401 - GET /api/postagens/Veget - ::1
+2024-08-30T21:23:05.923Z - OPTIONS /api/login - ::1
+2024-08-30T21:23:05.926Z - POST /api/login - ::1
+2024-08-30T21:23:06.521Z - GET /api/postagens - ::1
+2024-08-30T21:23:07.890Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:23:07.892Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:23:11.273Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:23:11.274Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:23:11.428Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:23:11.430Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:23:39.501Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:23:50.728Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:23:50.731Z - POST /api/postagens - ::1
+2024-08-30T21:23:50.750Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:25:08.239Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:25:08.244Z - POST /api/postagens - ::1
+2024-08-30T21:25:08.267Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:25:51.684Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:25:51.691Z - POST /api/postagens - ::1
+2024-08-30T21:25:51.718Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:25:52.934Z - POST /api/postagens - ::1
+2024-08-30T21:25:52.938Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:26:13.662Z - OPTIONS /api/login - ::1
+2024-08-30T21:26:13.665Z - POST /api/login - ::1
+2024-08-30T21:26:13.995Z - GET /api/postagens - ::1
+2024-08-30T21:26:15.295Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:26:15.297Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:22.507Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:22.521Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:25.462Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:25.464Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:28.088Z - GET /api/postagens - ::1
+2024-08-30T21:27:30.421Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:30.423Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:31.167Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:31.169Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:31.329Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:31.330Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:27:35.393Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:27:35.396Z - POST /api/postagens - ::1
+2024-08-30T21:27:35.411Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:29:22.963Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:29:22.970Z - POST /api/postagens - ::1
+2024-08-30T21:29:22.988Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:29:28.252Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:29:28.254Z - POST /api/postagens - ::1
+2024-08-30T21:29:28.256Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:29:28.632Z - POST /api/postagens - ::1
+2024-08-30T21:29:28.634Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:29:28.798Z - POST /api/postagens - ::1
+2024-08-30T21:29:28.800Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:29:32.897Z - OPTIONS /api/login - ::1
+2024-08-30T21:29:32.899Z - POST /api/login - ::1
+2024-08-30T21:29:33.230Z - GET /api/postagens - ::1
+2024-08-30T21:29:34.627Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:29:34.629Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:29:38.571Z - OPTIONS /api/login - ::1
+2024-08-30T21:29:38.573Z - POST /api/login - ::1
+2024-08-30T21:29:38.596Z - ERROR 401 - POST /api/login - ::1
+2024-08-30T21:29:40.939Z - POST /api/login - ::1
+2024-08-30T21:29:41.200Z - GET /api/postagens - ::1
+2024-08-30T21:29:44.920Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:29:44.923Z - POST /api/postagens - ::1
+2024-08-30T21:29:44.924Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:24.131Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:37:24.138Z - POST /api/postagens - ::1
+2024-08-30T21:37:24.155Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:24.964Z - POST /api/postagens - ::1
+2024-08-30T21:37:24.966Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:25.106Z - POST /api/postagens - ::1
+2024-08-30T21:37:25.107Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:25.253Z - POST /api/postagens - ::1
+2024-08-30T21:37:25.254Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:29.670Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:37:29.674Z - POST /api/postagens - ::1
+2024-08-30T21:37:29.676Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:29.818Z - POST /api/postagens - ::1
+2024-08-30T21:37:29.819Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:29.973Z - POST /api/postagens - ::1
+2024-08-30T21:37:29.975Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:30.123Z - POST /api/postagens - ::1
+2024-08-30T21:37:30.124Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:30.287Z - POST /api/postagens - ::1
+2024-08-30T21:37:30.289Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:30.437Z - POST /api/postagens - ::1
+2024-08-30T21:37:30.438Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:39.406Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:37:39.411Z - POST /api/postagens - ::1
+2024-08-30T21:37:39.414Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:39.738Z - POST /api/postagens - ::1
+2024-08-30T21:37:39.740Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:50.958Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:37:50.966Z - POST /api/postagens - ::1
+2024-08-30T21:37:50.982Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:51.494Z - POST /api/postagens - ::1
+2024-08-30T21:37:51.496Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:51.667Z - POST /api/postagens - ::1
+2024-08-30T21:37:51.669Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:51.853Z - POST /api/postagens - ::1
+2024-08-30T21:37:51.854Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:37:57.494Z - OPTIONS /api/login - ::1
+2024-08-30T21:37:57.497Z - POST /api/login - ::1
+2024-08-30T21:37:58.139Z - GET /api/postagens - ::1
+2024-08-30T21:38:01.470Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:38:01.473Z - POST /api/postagens - ::1
+2024-08-30T21:38:01.475Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:38:46.386Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:38:46.390Z - POST /api/postagens - ::1
+2024-08-30T21:38:46.392Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:38:50.105Z - OPTIONS /api/login - ::1
+2024-08-30T21:38:50.109Z - POST /api/login - ::1
+2024-08-30T21:38:50.682Z - GET /api/postagens - ::1
+2024-08-30T21:38:54.541Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:38:54.546Z - POST /api/postagens - ::1
+2024-08-30T21:38:54.550Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:38:57.522Z - OPTIONS /api/login - ::1
+2024-08-30T21:38:57.525Z - POST /api/login - ::1
+2024-08-30T21:38:58.114Z - GET /api/postagens - ::1
+2024-08-30T21:39:00.265Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:39:00.267Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:39:26.233Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:39:26.241Z - POST /api/postagens - ::1
+2024-08-30T21:39:26.256Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:39:31.831Z - OPTIONS /api/login - ::1
+2024-08-30T21:39:31.834Z - POST /api/login - ::1
+2024-08-30T21:39:32.391Z - GET /api/postagens - ::1
+2024-08-30T21:40:34.138Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:40:34.146Z - POST /api/postagens - ::1
+2024-08-30T21:40:34.162Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:41:41.561Z - OPTIONS /api/login - ::1
+2024-08-30T21:41:41.564Z - POST /api/login - ::1
+2024-08-30T21:41:42.285Z - GET /api/postagens - ::1
+2024-08-30T21:41:45.615Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:41:45.618Z - POST /api/postagens - ::1
+2024-08-30T21:41:45.620Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:42:32.303Z - OPTIONS /api/login - ::1
+2024-08-30T21:42:32.309Z - POST /api/login - ::1
+2024-08-30T21:42:32.899Z - GET /api/postagens - ::1
+2024-08-30T21:42:35.136Z - GET /api/postagens/Goku - ::1
+2024-08-30T21:42:35.138Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T21:42:47.502Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:42:47.506Z - POST /api/postagens - ::1
+2024-08-30T21:42:47.513Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:43:11.834Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:43:11.837Z - POST /api/postagens - ::1
+2024-08-30T21:43:11.840Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:43:18.894Z - OPTIONS /api/login - ::1
+2024-08-30T21:43:18.897Z - POST /api/login - ::1
+2024-08-30T21:43:19.685Z - GET /api/postagens - ::1
+2024-08-30T21:43:24.852Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:43:24.856Z - POST /api/postagens - ::1
+2024-08-30T21:43:24.859Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:44:16.078Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:44:16.081Z - POST /api/postagens - ::1
+2024-08-30T21:44:16.086Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:44:17.476Z - POST /api/postagens - ::1
+2024-08-30T21:44:17.480Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:50:50.498Z - OPTIONS /api/login - ::1
+2024-08-30T21:50:50.503Z - POST /api/login - ::1
+2024-08-30T21:50:50.953Z - GET /api/postagens - ::1
+2024-08-30T21:50:54.708Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:50:54.711Z - POST /api/postagens - ::1
+2024-08-30T21:50:54.719Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:51:20.554Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:51:20.559Z - POST /api/postagens - ::1
+2024-08-30T21:51:20.584Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:51:31.509Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:51:31.513Z - POST /api/postagens - ::1
+2024-08-30T21:51:31.520Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:52:08.102Z - GET /api/postagens - ::1
+2024-08-30T21:52:36.831Z - OPTIONS /api/login - ::1
+2024-08-30T21:52:36.834Z - POST /api/login - ::1
+2024-08-30T21:52:37.392Z - GET /api/postagens - ::1
+2024-08-30T21:52:40.811Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:52:40.814Z - POST /api/postagens - ::1
+2024-08-30T21:52:40.818Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:53:43.448Z - OPTIONS /api/login - ::1
+2024-08-30T21:53:43.453Z - POST /api/login - ::1
+2024-08-30T21:53:44.087Z - GET /api/postagens - ::1
+2024-08-30T21:53:47.699Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:53:47.702Z - POST /api/postagens - ::1
+2024-08-30T21:53:47.714Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:54:15.485Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:54:15.491Z - POST /api/postagens - ::1
+2024-08-30T21:54:15.507Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:55:14.763Z - OPTIONS /api/login - ::1
+2024-08-30T21:55:14.766Z - POST /api/login - ::1
+2024-08-30T21:55:15.384Z - GET /api/postagens - ::1
+2024-08-30T21:55:19.093Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:55:19.097Z - POST /api/postagens - ::1
+2024-08-30T21:55:19.105Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:55:31.513Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:55:31.517Z - POST /api/postagens - ::1
+2024-08-30T21:55:31.521Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T21:55:39.426Z - OPTIONS /api/login - ::1
+2024-08-30T21:55:39.430Z - POST /api/login - ::1
+2024-08-30T21:55:39.983Z - GET /api/postagens - ::1
+2024-08-30T21:55:42.992Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:55:42.995Z - POST /api/postagens - ::1
+2024-08-30T21:55:43.002Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:56:09.645Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:56:09.655Z - POST /api/postagens - ::1
+2024-08-30T21:56:09.696Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:56:37.803Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:56:37.807Z - POST /api/postagens - ::1
+2024-08-30T21:56:37.816Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:56:49.578Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:56:49.586Z - POST /api/postagens - ::1
+2024-08-30T21:56:49.613Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:56:58.784Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:56:58.797Z - POST /api/postagens - ::1
+2024-08-30T21:56:58.821Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:57:37.799Z - OPTIONS /api/login - ::1
+2024-08-30T21:57:37.802Z - POST /api/login - ::1
+2024-08-30T21:57:38.351Z - GET /api/postagens - ::1
+2024-08-30T21:57:42.080Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:57:42.083Z - POST /api/postagens - ::1
+2024-08-30T21:57:42.089Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:28.810Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:58:28.819Z - POST /api/postagens - ::1
+2024-08-30T21:58:28.848Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:36.188Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:58:36.192Z - POST /api/postagens - ::1
+2024-08-30T21:58:36.216Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:54.534Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:58:54.541Z - POST /api/postagens - ::1
+2024-08-30T21:58:54.575Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:55.708Z - POST /api/postagens - ::1
+2024-08-30T21:58:55.720Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:56.177Z - POST /api/postagens - ::1
+2024-08-30T21:58:56.186Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:56.583Z - POST /api/postagens - ::1
+2024-08-30T21:58:56.590Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:56.859Z - POST /api/postagens - ::1
+2024-08-30T21:58:56.870Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:57.109Z - POST /api/postagens - ::1
+2024-08-30T21:58:57.119Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:57.385Z - POST /api/postagens - ::1
+2024-08-30T21:58:57.391Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:57.612Z - POST /api/postagens - ::1
+2024-08-30T21:58:57.621Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:57.833Z - POST /api/postagens - ::1
+2024-08-30T21:58:57.839Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:58:58.040Z - POST /api/postagens - ::1
+2024-08-30T21:58:58.052Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:59:18.656Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:59:18.662Z - POST /api/postagens - ::1
+2024-08-30T21:59:18.688Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:59:22.209Z - POST /api/postagens - ::1
+2024-08-30T21:59:22.219Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T21:59:54.573Z - OPTIONS /api/postagens - ::1
+2024-08-30T21:59:54.580Z - POST /api/postagens - ::1
+2024-08-30T21:59:54.604Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:00:24.208Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:00:24.221Z - POST /api/postagens - ::1
+2024-08-30T22:00:24.244Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:04:40.626Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:04:40.632Z - POST /api/postagens - ::1
+2024-08-30T22:04:40.647Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:04:46.806Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:04:46.808Z - POST /api/postagens - ::1
+2024-08-30T22:04:46.821Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:05:02.596Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:05:02.604Z - POST /api/postagens - ::1
+2024-08-30T22:05:02.630Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:05:14.770Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:05:14.776Z - POST /api/postagens - ::1
+2024-08-30T22:05:14.791Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T22:05:29.279Z - OPTIONS /api/login - ::1
+2024-08-30T22:05:29.282Z - POST /api/login - ::1
+2024-08-30T22:05:29.380Z - ERROR 401 - POST /api/login - ::1
+2024-08-30T22:05:31.372Z - POST /api/login - ::1
+2024-08-30T22:05:31.943Z - GET /api/postagens - ::1
+2024-08-30T22:05:33.244Z - GET /api/postagens - ::1
+2024-08-30T22:05:35.957Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:05:35.961Z - POST /api/postagens - ::1
+2024-08-30T22:05:35.970Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:05:47.951Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:05:47.965Z - POST /api/postagens - ::1
+2024-08-30T22:05:48.002Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:05:56.391Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:05:56.399Z - POST /api/postagens - ::1
+2024-08-30T22:05:56.423Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:08:17.431Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:08:17.438Z - POST /api/postagens - ::1
+2024-08-30T22:08:17.470Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:08:17.991Z - POST /api/postagens - ::1
+2024-08-30T22:08:17.998Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:08:18.498Z - POST /api/postagens - ::1
+2024-08-30T22:08:18.504Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:08:42.265Z - OPTIONS /api/login - ::1
+2024-08-30T22:08:42.268Z - POST /api/login - ::1
+2024-08-30T22:08:42.826Z - GET /api/postagens - ::1
+2024-08-30T22:08:46.937Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:08:46.940Z - POST /api/postagens - ::1
+2024-08-30T22:08:46.944Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:09:17.143Z - OPTIONS /api/login - ::1
+2024-08-30T22:09:17.149Z - POST /api/login - ::1
+2024-08-30T22:09:17.740Z - GET /api/postagens - ::1
+2024-08-30T22:09:21.442Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:09:21.446Z - POST /api/postagens - ::1
+2024-08-30T22:09:21.454Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:09:50.954Z - OPTIONS /api/login - ::1
+2024-08-30T22:09:50.962Z - POST /api/login - ::1
+2024-08-30T22:09:51.611Z - GET /api/postagens - ::1
+2024-08-30T22:09:53.476Z - GET /api/postagens/Goku - ::1
+2024-08-30T22:09:53.480Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T22:09:58.135Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:09:58.138Z - POST /api/postagens - ::1
+2024-08-30T22:09:58.148Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:10:53.152Z - OPTIONS /api/login - ::1
+2024-08-30T22:10:53.155Z - POST /api/login - ::1
+2024-08-30T22:10:53.715Z - GET /api/postagens - ::1
+2024-08-30T22:10:57.002Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:10:57.005Z - POST /api/postagens - ::1
+2024-08-30T22:10:57.011Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:11:59.791Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:11:59.799Z - POST /api/postagens - ::1
+2024-08-30T22:11:59.825Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:00.335Z - POST /api/postagens - ::1
+2024-08-30T22:12:00.342Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:00.507Z - POST /api/postagens - ::1
+2024-08-30T22:12:00.515Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:01.229Z - POST /api/postagens - ::1
+2024-08-30T22:12:01.238Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:01.538Z - POST /api/postagens - ::1
+2024-08-30T22:12:01.545Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:01.716Z - POST /api/postagens - ::1
+2024-08-30T22:12:01.725Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:20.675Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:12:20.693Z - POST /api/postagens - ::1
+2024-08-30T22:12:20.726Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:21.201Z - POST /api/postagens - ::1
+2024-08-30T22:12:21.215Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:21.357Z - POST /api/postagens - ::1
+2024-08-30T22:12:21.366Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:21.538Z - POST /api/postagens - ::1
+2024-08-30T22:12:21.545Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:21.744Z - POST /api/postagens - ::1
+2024-08-30T22:12:21.752Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:21.958Z - POST /api/postagens - ::1
+2024-08-30T22:12:21.966Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:22.153Z - POST /api/postagens - ::1
+2024-08-30T22:12:22.159Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:12:22.562Z - POST /api/postagens - ::1
+2024-08-30T22:12:22.570Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:13:15.341Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:13:15.348Z - POST /api/postagens - ::1
+2024-08-30T22:13:15.374Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:13:48.321Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:13:48.327Z - POST /api/postagens - ::1
+2024-08-30T22:13:48.354Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:13:48.851Z - POST /api/postagens - ::1
+2024-08-30T22:13:48.862Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:13:49.118Z - POST /api/postagens - ::1
+2024-08-30T22:13:49.123Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:13:49.350Z - POST /api/postagens - ::1
+2024-08-30T22:13:49.356Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:13:49.584Z - POST /api/postagens - ::1
+2024-08-30T22:13:49.588Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:03.810Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:14:03.814Z - POST /api/postagens - ::1
+2024-08-30T22:14:03.821Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:03.984Z - POST /api/postagens - ::1
+2024-08-30T22:14:03.988Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:04.233Z - POST /api/postagens - ::1
+2024-08-30T22:14:04.237Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:04.378Z - POST /api/postagens - ::1
+2024-08-30T22:14:04.386Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:04.508Z - POST /api/postagens - ::1
+2024-08-30T22:14:04.513Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:08.379Z - POST /api/postagens - ::1
+2024-08-30T22:14:08.385Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:31.666Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:14:31.672Z - POST /api/postagens - ::1
+2024-08-30T22:14:31.702Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:32.114Z - POST /api/postagens - ::1
+2024-08-30T22:14:32.122Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:32.276Z - POST /api/postagens - ::1
+2024-08-30T22:14:32.282Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:32.452Z - POST /api/postagens - ::1
+2024-08-30T22:14:32.456Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:32.631Z - POST /api/postagens - ::1
+2024-08-30T22:14:32.635Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:32.802Z - POST /api/postagens - ::1
+2024-08-30T22:14:32.806Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:32.984Z - POST /api/postagens - ::1
+2024-08-30T22:14:32.988Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:33.157Z - POST /api/postagens - ::1
+2024-08-30T22:14:33.161Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:33.358Z - POST /api/postagens - ::1
+2024-08-30T22:14:33.365Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:33.534Z - POST /api/postagens - ::1
+2024-08-30T22:14:33.539Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:33.718Z - POST /api/postagens - ::1
+2024-08-30T22:14:33.722Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:33.900Z - POST /api/postagens - ::1
+2024-08-30T22:14:33.904Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:34.101Z - POST /api/postagens - ::1
+2024-08-30T22:14:34.105Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:14:34.313Z - POST /api/postagens - ::1
+2024-08-30T22:14:34.319Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:17:54.180Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:17:54.185Z - POST /api/postagens - ::1
+2024-08-30T22:17:54.226Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:54.675Z - POST /api/postagens - ::1
+2024-08-30T22:17:54.682Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:54.857Z - POST /api/postagens - ::1
+2024-08-30T22:17:54.864Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:55.035Z - POST /api/postagens - ::1
+2024-08-30T22:17:55.043Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:55.193Z - POST /api/postagens - ::1
+2024-08-30T22:17:55.200Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:55.351Z - POST /api/postagens - ::1
+2024-08-30T22:17:55.357Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:55.671Z - POST /api/postagens - ::1
+2024-08-30T22:17:55.678Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:55.839Z - POST /api/postagens - ::1
+2024-08-30T22:17:55.846Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:56.025Z - POST /api/postagens - ::1
+2024-08-30T22:17:56.031Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:17:56.217Z - POST /api/postagens - ::1
+2024-08-30T22:17:56.225Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:18:12.101Z - OPTIONS /api/login - ::1
+2024-08-30T22:18:12.106Z - POST /api/login - ::1
+2024-08-30T22:18:12.691Z - GET /api/postagens - ::1
+2024-08-30T22:18:26.995Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:18:27.011Z - POST /api/postagens - ::1
+2024-08-30T22:18:27.049Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:18:32.397Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:18:32.403Z - POST /api/postagens - ::1
+2024-08-30T22:18:32.425Z - ERROR 500 - POST /api/postagens - ::1
+2024-08-30T22:19:20.825Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:19:20.835Z - POST /api/postagens - ::1
+2024-08-30T22:19:20.864Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:23:12.100Z - OPTIONS /api/login - ::1
+2024-08-30T22:23:12.108Z - POST /api/login - ::1
+2024-08-30T22:23:12.678Z - GET /api/postagens - ::1
+2024-08-30T22:23:21.750Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:23:21.753Z - POST /api/postagens - ::1
+2024-08-30T22:23:21.761Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:24:30.717Z - OPTIONS /api/login - ::1
+2024-08-30T22:24:30.723Z - POST /api/login - ::1
+2024-08-30T22:24:31.331Z - GET /api/postagens - ::1
+2024-08-30T22:24:38.338Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:24:38.341Z - POST /api/postagens - ::1
+2024-08-30T22:24:38.356Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:25:15.588Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:25:15.602Z - POST /api/postagens - ::1
+2024-08-30T22:25:15.628Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:25:16.478Z - POST /api/postagens - ::1
+2024-08-30T22:25:16.485Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:25:27.583Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:25:27.587Z - POST /api/postagens - ::1
+2024-08-30T22:25:27.594Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:25:30.322Z - POST /api/postagens - ::1
+2024-08-30T22:25:30.346Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:58:45.774Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:58:45.781Z - POST /api/postagens - ::1
+2024-08-30T22:58:45.802Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:59:26.182Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:59:26.189Z - POST /api/postagens - ::1
+2024-08-30T22:59:26.228Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:59:35.147Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:59:35.155Z - POST /api/postagens - ::1
+2024-08-30T22:59:35.180Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:59:35.639Z - POST /api/postagens - ::1
+2024-08-30T22:59:35.644Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T22:59:43.148Z - OPTIONS /api/login - ::1
+2024-08-30T22:59:43.150Z - POST /api/login - ::1
+2024-08-30T22:59:43.727Z - GET /api/postagens - ::1
+2024-08-30T22:59:47.023Z - OPTIONS /api/postagens - ::1
+2024-08-30T22:59:47.026Z - POST /api/postagens - ::1
+2024-08-30T22:59:47.030Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:19.482Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:00:19.488Z - POST /api/postagens - ::1
+2024-08-30T23:00:19.508Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:20.014Z - POST /api/postagens - ::1
+2024-08-30T23:00:20.018Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:26.088Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:00:26.094Z - POST /api/postagens - ::1
+2024-08-30T23:00:26.119Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:26.572Z - POST /api/postagens - ::1
+2024-08-30T23:00:26.575Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:26.744Z - POST /api/postagens - ::1
+2024-08-30T23:00:26.746Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:27.011Z - POST /api/postagens - ::1
+2024-08-30T23:00:27.012Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:27.688Z - POST /api/postagens - ::1
+2024-08-30T23:00:27.690Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:27.868Z - POST /api/postagens - ::1
+2024-08-30T23:00:27.870Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:38.213Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:00:38.220Z - POST /api/postagens - ::1
+2024-08-30T23:00:38.243Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:38.619Z - POST /api/postagens - ::1
+2024-08-30T23:00:38.622Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:42.063Z - OPTIONS /api/login - ::1
+2024-08-30T23:00:42.066Z - POST /api/login - ::1
+2024-08-30T23:00:42.412Z - GET /api/postagens - ::1
+2024-08-30T23:00:44.454Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:00:48.352Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:00:48.354Z - POST /api/postagens - ::1
+2024-08-30T23:00:48.357Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:49.033Z - POST /api/postagens - ::1
+2024-08-30T23:00:49.035Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:00:59.560Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:00:59.563Z - POST /api/postagens - ::1
+2024-08-30T23:00:59.568Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:01:52.512Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:01:52.521Z - POST /api/postagens - ::1
+2024-08-30T23:01:52.545Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:02:28.719Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:02:28.723Z - POST /api/postagens - ::1
+2024-08-30T23:02:28.727Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:02:43.746Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:02:43.752Z - POST /api/postagens - ::1
+2024-08-30T23:02:43.775Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T23:02:47.841Z - OPTIONS /api/login - ::1
+2024-08-30T23:02:47.844Z - POST /api/login - ::1
+2024-08-30T23:02:48.399Z - GET /api/postagens - ::1
+2024-08-30T23:02:52.827Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:02:52.830Z - POST /api/postagens - ::1
+2024-08-30T23:02:52.837Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T23:02:56.888Z - OPTIONS /api/login - ::1
+2024-08-30T23:02:56.891Z - POST /api/login - ::1
+2024-08-30T23:02:57.422Z - GET /api/postagens - ::1
+2024-08-30T23:03:03.803Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:03:03.809Z - POST /api/postagens - ::1
+2024-08-30T23:03:03.828Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:03:36.251Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:03:36.257Z - POST /api/postagens - ::1
+2024-08-30T23:03:36.277Z - ERROR 401 - POST /api/postagens - ::1
+2024-08-30T23:03:40.768Z - OPTIONS /api/login - ::1
+2024-08-30T23:03:40.772Z - POST /api/login - ::1
+2024-08-30T23:03:41.316Z - GET /api/postagens - ::1
+2024-08-30T23:06:36.388Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:06:36.395Z - POST /api/postagens - ::1
+2024-08-30T23:06:36.421Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:06:36.974Z - POST /api/postagens - ::1
+2024-08-30T23:06:36.977Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:06:37.144Z - POST /api/postagens - ::1
+2024-08-30T23:06:37.146Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:06:49.190Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:06:49.193Z - POST /api/postagens - ::1
+2024-08-30T23:06:49.196Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:06:49.839Z - POST /api/postagens - ::1
+2024-08-30T23:06:49.841Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:06:49.963Z - POST /api/postagens - ::1
+2024-08-30T23:06:49.966Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:06:57.991Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:06:57.994Z - POST /api/postagens - ::1
+2024-08-30T23:06:57.997Z - ERROR 400 - POST /api/postagens - ::1
+2024-08-30T23:10:48.024Z - OPTIONS /api/login - ::1
+2024-08-30T23:10:48.029Z - POST /api/login - ::1
+2024-08-30T23:10:48.360Z - GET /api/postagens - ::1
+2024-08-30T23:10:51.171Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:10:51.173Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T23:10:52.404Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:10:52.405Z - ERROR 401 - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:09.761Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:11.369Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:14.099Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:15.121Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:15.556Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:15.700Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:15.853Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:11:25.374Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:11:25.379Z - POST /api/postagens - ::1
+2024-08-30T23:15:45.246Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:15:45.252Z - POST /api/postagens - ::1
+2024-08-30T23:16:33.375Z - OPTIONS /api/login - ::1
+2024-08-30T23:16:33.381Z - POST /api/login - ::1
+2024-08-30T23:16:33.722Z - GET /api/postagens - ::1
+2024-08-30T23:16:46.273Z - GET /api/postagens/Goku - ::1
+2024-08-30T23:17:37.888Z - OPTIONS /api/login - ::1
+2024-08-30T23:17:37.893Z - POST /api/login - ::1
+2024-08-30T23:17:37.939Z - ERROR 401 - POST /api/login - ::1
+2024-08-30T23:17:51.661Z - OPTIONS /api/login - ::1
+2024-08-30T23:17:51.663Z - POST /api/login - ::1
+2024-08-30T23:17:52.020Z - GET /api/postagens - ::1
+2024-08-30T23:18:04.396Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:18:04.398Z - POST /api/postagens - ::1
+2024-08-30T23:21:08.619Z - OPTIONS /api/login - ::1
+2024-08-30T23:21:08.625Z - POST /api/login - ::1
+2024-08-30T23:21:09.050Z - GET /api/postagens - ::1
+2024-08-30T23:21:11.707Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:21:11.709Z - POST /api/postagens - ::1
+2024-08-30T23:21:19.648Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:21:19.655Z - POST /api/postagens - ::1
+2024-08-30T23:21:36.791Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:21:36.797Z - POST /api/postagens - ::1
+2024-08-30T23:22:02.476Z - OPTIONS /api/postagens - ::1
+2024-08-30T23:22:02.481Z - POST /api/postagens - ::1

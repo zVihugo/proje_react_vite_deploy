@@ -1,0 +1,21 @@
+import React from 'react'
+import imagem from '../../images/images.jpg'
+import Alert from   'react-bootstrap/Alert'
+
+const ErrorInput = () => {
+  return (
+
+    
+    <Alert variant ="danger" className='mt-2'>
+      <Alert.Heading className='d-flex justify-content-center'>Digita o nome meu rei</Alert.Heading>
+      <div className='d-flex justify-content-center'>
+        <img src={imagem} alt="mano-brown-coelhinho"/>
+      </div>
+      <hr />
+      <p className='d-flex justify-content-center'>Parece que alguem aqui ta querendo me dificultar</p>
+    </Alert>
+
+  )
+}
+
+export default ErrorInput
